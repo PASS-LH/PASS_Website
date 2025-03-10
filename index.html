@@ -24,8 +24,8 @@
       line-height: 1.6;
     }
 
-    /* Header styling */
-    header {
+    /* Header styling for development notice */
+    header.dev-notice {
       background-color: var(--accent-beige);
       padding: 10px;
       text-align: center;
@@ -33,6 +33,34 @@
       font-size: 1.2em;
       color: var(--dark-text);
     }
+
+    /* Navigation Bar styling */
+    /* Begin Navigation Bar Include */
+    nav {
+      background-color: var(--accent-beige);
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: var(--dark-text);
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: var(--hover-color);
+      text-decoration: underline;
+    }
+    /* End Navigation Bar Include */
 
     /* Main container for content */
     .container {
@@ -112,17 +140,36 @@
       .statements p {
         font-size: 1em;
       }
-      header {
+      header.dev-notice, nav {
         font-size: 1em;
+      }
+      /* Stack nav items on mobile for better readability */
+      nav ul li {
+        display: block;
+        margin: 5px 0;
       }
     }
   </style>
 </head>
 <body>
   <!-- Header with development notice -->
-  <header>
+  <header class="dev-notice">
     Site Under Development - We Appreciate Your Patience.
   </header>
+
+  <!-- Navigation Bar (Modular Include Section) -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="payments.html">Payments</a></li>
+      <li><a href="scheduling.html">Scheduling</a></li>
+      <li><a href="calendar.html">Google Calendar</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
 
   <div class="container">
     <!-- Company Logo -->
