@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Play At Scale</title>
   <style>
-    /* 
-      Aesthetic aligned with the attached image's color scheme:
-      - Warm beige background for the body
-      - Slightly darker beige accent for the header
-      - Dark text for contrast
-    */
-    
-    /* Root variables (optional for easy updates) */
+    /* Root CSS variables for easy theme updates */
     :root {
       --beige-bg: #f2e8d7;
       --accent-beige: #d8c7ab;
       --dark-text: #333333;
       --container-bg: #f2e8d7;
+      --hover-color: #a67c52; /* Slightly darker accent for hover effects */
     }
-
+    
+    /* Base styling with modern, legible fonts */
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       background-color: var(--beige-bg);
       color: var(--dark-text);
+      line-height: 1.6;
     }
 
-    /* Header with development notice */
+    /* Header styling */
     header {
       background-color: var(--accent-beige);
       padding: 10px;
@@ -38,11 +34,12 @@
       color: var(--dark-text);
     }
 
+    /* Main container for content */
     .container {
       max-width: 800px;
       margin: 20px auto;
       background-color: var(--container-bg);
-      padding: 0px;
+      padding: 20px;
     }
 
     /* Logo styling */
@@ -54,7 +51,7 @@
       max-width: 200px;
     }
 
-    /* Contact links styling */
+    /* Contact links styling with hover effects */
     .contact {
       text-align: center;
       margin: 20px 0;
@@ -64,6 +61,11 @@
       text-decoration: none;
       color: var(--dark-text);
       font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .contact a:hover {
+      color: var(--hover-color);
+      text-decoration: underline;
     }
 
     /* Vision and Mission statements styling */
@@ -89,6 +91,31 @@
     .qr-code img {
       max-width: 150px;
     }
+
+    /* Responsive adjustments using media queries */
+    @media (max-width: 768px) {
+      .container {
+        margin: 10px;
+        padding: 15px;
+      }
+      .logo img {
+        max-width: 150px;
+      }
+      .contact a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 0.9em;
+      }
+      .statements h2 {
+        font-size: 1.1em;
+      }
+      .statements p {
+        font-size: 1em;
+      }
+      header {
+        font-size: 1em;
+      }
+    }
   </style>
 </head>
 <body>
@@ -98,12 +125,9 @@
   </header>
 
   <div class="container">
-    <!-- Company Logo in the same directory (Main branch) -->
+    <!-- Company Logo -->
     <div class="logo">
-      <img 
-        src="PASS_Logo_Colored.png" 
-        alt="Company Logo"
-      />
+      <img src="PASS_Logo_Colored.png" alt="Company Logo" />
     </div>
 
     <!-- Clickable Contact Links: Email, LinkedIn -->
@@ -121,13 +145,10 @@
       <p>Bridging the gap between small businesses and corporate giants by equipping them with world-class tools, insights, and strategies for sustainable growth.</p>
     </div>
 
-    <!-- QR Code in the same directory (Main branch) -->
+    <!-- QR Code for contact exchange -->
     <div class="qr-code">
       <p>Scan our QR Code to Exchange Contact Info:</p>
-      <img 
-        src="MobiloCard_qr_code.jpg" 
-        alt="MobiloCard QR Code"
-      />
+      <img src="MobiloCard_qr_code.jpg" alt="MobiloCard QR Code" />
     </div>
   </div>
 </body>
