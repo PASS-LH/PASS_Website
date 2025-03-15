@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Play At Scale</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Consulting Business Landing Page</title>
   <style>
-    /* Root CSS variables for easy theme updates */
+    /* Root variables */
     :root {
       --beige-bg: #f2e8d7;
       --accent-beige: #d8c7ab;
       --dark-text: #333333;
       --container-bg: #f2e8d7;
-      --hover-color: #a67c52; /* Slightly darker accent for hover effects */
+      --hover-color: #a67c52;
     }
-    
-    /* Base styling with modern, legible fonts */
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: Arial, sans-serif;
       background-color: var(--beige-bg);
       color: var(--dark-text);
-      line-height: 1.6;
     }
-
-    /* Header styling for development notice */
-    header.dev-notice {
+    /* Header */
+    header {
       background-color: var(--accent-beige);
       padding: 10px;
       text-align: center;
@@ -33,9 +29,7 @@
       font-size: 1.2em;
       color: var(--dark-text);
     }
-
-    /* Navigation Bar styling */
-    /* Begin Navigation Bar Include */
+    /* Navigation Bar */
     nav {
       background-color: var(--accent-beige);
       padding: 10px 0;
@@ -49,6 +43,7 @@
     nav ul li {
       display: inline-block;
       margin: 0 10px;
+      position: relative;
     }
     nav ul li a {
       text-decoration: none;
@@ -60,17 +55,37 @@
       color: var(--hover-color);
       text-decoration: underline;
     }
-    /* End Navigation Bar Include */
-
-    /* Main container for content */
+    /* Dropdown styling */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: var(--accent-beige);
+      min-width: 160px;
+      z-index: 1;
+      text-align: left;
+      left: 0;
+    }
+    .dropdown-content a {
+      display: block;
+      padding: 10px;
+      color: var(--dark-text);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .dropdown-content a:hover {
+      color: var(--hover-color);
+    }
+    li.dropdown:hover .dropdown-content {
+      display: block;
+    }
+    /* Main container */
     .container {
       max-width: 800px;
       margin: 20px auto;
       background-color: var(--container-bg);
-      padding: 20px;
+      padding: 0px;
     }
-
-    /* Logo styling */
+    /* Logo */
     .logo {
       text-align: center;
       margin-bottom: 20px;
@@ -78,8 +93,7 @@
     .logo img {
       max-width: 200px;
     }
-
-    /* Contact links styling with hover effects */
+    /* Contact Links */
     .contact {
       text-align: center;
       margin: 20px 0;
@@ -89,14 +103,8 @@
       text-decoration: none;
       color: var(--dark-text);
       font-weight: bold;
-      transition: color 0.3s ease;
     }
-    .contact a:hover {
-      color: var(--hover-color);
-      text-decoration: underline;
-    }
-
-    /* Vision and Mission statements styling */
+    /* Vision and Mission */
     .statements {
       text-align: center;
       margin: 20px 0;
@@ -104,14 +112,12 @@
     .statements h2 {
       margin-bottom: 10px;
       font-size: 1.2em;
-      color: var(--dark-text);
     }
     .statements p {
       margin-bottom: 20px;
       font-size: 1.1em;
     }
-
-    /* QR Code styling */
+    /* QR Code */
     .qr-code {
       text-align: center;
       margin: 20px 0;
@@ -119,8 +125,19 @@
     .qr-code img {
       max-width: 150px;
     }
-
-    /* Responsive adjustments using media queries */
+    /* Legal Sections */
+    .legal {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+    .legal h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    /* Responsive adjustments */
     @media (max-width: 768px) {
       .container {
         margin: 10px;
@@ -134,16 +151,9 @@
         margin: 5px;
         font-size: 0.9em;
       }
-      .statements h2 {
-        font-size: 1.1em;
-      }
-      .statements p {
+      header, nav {
         font-size: 1em;
       }
-      header.dev-notice, nav {
-        font-size: 1em;
-      }
-      /* Stack nav items on mobile for better readability */
       nav ul li {
         display: block;
         margin: 5px 0;
@@ -152,12 +162,11 @@
   </style>
 </head>
 <body>
-  <!-- Header with development notice -->
-  <header class="dev-notice">
-    Site Under Development - We Appreciate Your Patience.
+  <!-- Header -->
+  <header>
+    Site Under Development - We Appreciate Your Patience!
   </header>
-
-  <!-- Navigation Bar (Modular Include Section) -->
+  <!-- Navigation Bar -->
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -166,36 +175,127 @@
       <li><a href="calendar.html">Google Calendar</a></li>
       <li><a href="faqs.html">FAQs</a></li>
       <li><a href="testimonials.html">Testimonials</a></li>
-      <li><a href="products.html">Products</a></li>
+      <li class="dropdown">
+        <a href="products.html">Products</a>
+        <div class="dropdown-content">
+          <a href="#privacy-policy">Privacy Policy</a>
+          <a href="#eula">EULA</a>
+        </div>
+      </li>
       <li><a href="contact.html">Contact Us</a></li>
     </ul>
   </nav>
-
+  <!-- Main Content Container -->
   <div class="container">
     <!-- Company Logo -->
     <div class="logo">
       <img src="PASS_Logo_Colored.png" alt="Company Logo" />
     </div>
-
-    <!-- Clickable Contact Links: Email, LinkedIn -->
+    <!-- Contact Links -->
     <div class="contact">
       <a href="mailto:lucashobbs@playatscale.com">Email Us</a>
       <a href="https://www.linkedin.com/in/lucashobbs" target="_blank">LinkedIn</a>
     </div>
-
     <!-- Vision and Mission Statements -->
     <div class="statements">
       <h2>Our Vision</h2>
       <p>To create an ecosystem where every business, regardless of size, has the tools and insights to thrive and scale.</p>
-      
       <h2>Our Mission</h2>
       <p>Bridging the gap between small businesses and corporate giants by equipping them with world-class tools, insights, and strategies for sustainable growth.</p>
     </div>
-
-    <!-- QR Code for contact exchange -->
+    <!-- QR Code -->
     <div class="qr-code">
       <p>Scan our QR Code to Exchange Contact Info:</p>
       <img src="MobiloCard_qr_code.jpg" alt="MobiloCard QR Code" />
+    </div>
+  </div>
+  <!-- EULA Section -->
+  <div class="legal" id="eula">
+    <h2>End-User License Agreement (EULA)</h2>
+    <!-- EULA Content (stripped of outer HTML tags) -->
+    <div>
+      <p><strong>END-USER LICENSE AGREEMENT</strong></p>
+      <p><em>Effective Date: 03/15/25</em></p>
+      <p>IMPORTANT: PLEASE READ THIS END-USER LICENSE AGREEMENT ("EULA")
+      CAREFULLY BEFORE USING THIS SOFTWARE. BY INSTALLING, COPYING, OR OTHERWISE
+      USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS EULA.</p>
+      <p><strong>1. Definitions</strong><br>
+      a. <strong>"Software"</strong> means the QuickBooks Data Access Application (including updates and modifications) provided by Play At Scale Services, LLC ("Provider").<br>
+      b. <strong>"User"</strong> means any individual or entity using the Software.<br>
+      c. <strong>"Financial Data"</strong> refers to any financial information accessed or processed by the Software (including accounting records, transactions, and reports).<br>
+      d. <strong>"QuickBooks Data"</strong> means data retrieved from QuickBooks Online via the QuickBooks API.</p>
+      <p><strong>2. License Grant</strong><br>
+      Subject to the terms of this EULA, the Provider grants the User a non-exclusive, non-transferable, revocable license to use the Software solely for accessing, processing, and analyzing Financial Data from QuickBooks Online in compliance with applicable laws and QuickBooks API guidelines.</p>
+      <p><strong>3. Restrictions</strong><br>
+      a. The User shall not modify, reverse engineer, decompile, or disassemble the Software.<br>
+      b. The User shall not sublicense, distribute, or otherwise transfer the Software or any derivative works without the Provider’s express written consent.<br>
+      c. The Software must not be used in any manner that violates any applicable laws or infringes on any intellectual property rights.</p>
+      <p><strong>4. Intellectual Property</strong><br>
+      All intellectual property rights in the Software and related documentation are owned by the Provider or its licensors. No rights are transferred to the User except as expressly granted in this EULA.</p>
+      <p><strong>5. Data Security and Confidentiality</strong><br>
+      a. The Provider implements industry-standard security measures to safeguard Financial Data.<br>
+      b. The User is responsible for maintaining the confidentiality of their login credentials and any sensitive information.<br>
+      c. The User agrees to comply with all relevant data protection laws and notify the Provider immediately in the event of any unauthorized access or breach.</p>
+      <p><strong>6. Disclaimer of Warranties</strong><br>
+      a. THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.<br>
+      b. THE PROVIDER DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE, UNINTERRUPTED, OR THAT ALL DEFECTS WILL BE CORRECTED.</p>
+      <p><strong>7. Limitation of Liability</strong><br>
+      IN NO EVENT SHALL THE PROVIDER BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR EXEMPLARY DAMAGES (INCLUDING LOSS OF PROFITS, DATA, OR USE) ARISING FROM THE USE OF THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+      <p><strong>8. Indemnification</strong><br>
+      The User agrees to indemnify and hold harmless the Provider from any claims, damages, or losses arising out of or in connection with the User’s use of the Software or breach of this EULA.</p>
+      <p><strong>9. Termination</strong><br>
+      This EULA remains in effect until terminated. The Provider may terminate this EULA immediately upon breach by the User. Upon termination, the User must cease using the Software and destroy all copies.</p>
+      <p><strong>10. Governing Law and Dispute Resolution</strong><br>
+      This EULA shall be governed by the laws of Snohomish County, Washington. Any disputes shall be resolved by binding arbitration in Snohomish County, Washington in accordance with the applicable arbitration rules.</p>
+      <p><strong>11. Miscellaneous</strong><br>
+      a. This EULA constitutes the entire agreement between the parties regarding the Software.<br>
+      b. If any provision is found invalid or unenforceable, the remaining provisions shall remain in full force and effect.<br>
+      c. No waiver by the Provider of any breach shall be deemed a waiver of any subsequent breach.</p>
+      <p>BY USING THE SOFTWARE, THE USER ACKNOWLEDGES THAT THEY HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THE TERMS OF THIS EULA.</p>
+    </div>
+  </div>
+  <!-- Privacy Policy Section -->
+  <div class="legal" id="privacy-policy">
+    <h2>Privacy Policy</h2>
+    <!-- Privacy Policy Content (stripped of outer HTML tags) -->
+    <div>
+      <p><strong>PRIVACY POLICY</strong></p>
+      <p><em>Effective Date: 03/15/25</em></p>
+      <p>This Privacy Policy explains how Play At Scale Services, LLC ("we", "us", or "our") collects, uses, discloses, and protects your information when you use our QuickBooks Data Access Application ("Application"). We are committed to safeguarding your privacy and ensuring the security of your Financial Data.</p>
+      <p><strong>1. Information We Collect</strong><br>
+      a. <strong>Personal Information:</strong> When you register or interact with our Application, we may collect information such as your name, email address, and contact details.<br>
+      b. <strong>Financial Data:</strong> The Application accesses Financial Data from QuickBooks Online (e.g., accounting records, transactions, reports) via the QuickBooks API after you authorize access.<br>
+      c. <strong>Usage Data:</strong> We collect details about your use of the Application, including IP addresses, device information, and activity logs.</p>
+      <p><strong>2. How We Use Your Information</strong><br>
+      a. <strong>Providing the Service:</strong> To authenticate your access, retrieve Financial Data, and allow you to view, process, or analyze that data.<br>
+      b. <strong>Improvement and Analytics:</strong> To monitor and improve the Application’s functionality and performance, and to generate insights or reports.<br>
+      c. <strong>Communication:</strong> To send you important notifications, updates, and support communications regarding the Application.<br>
+      d. <strong>Compliance and Security:</strong> To comply with legal obligations and protect our rights and the security of your data.</p>
+      <p><strong>3. Data Sharing and Disclosure</strong><br>
+      a. <strong>Service Providers:</strong> We may share your information with trusted third-party service providers who assist in operating the Application under strict confidentiality agreements.<br>
+      b. <strong>Legal Requirements:</strong> We may disclose your information if required by law or in response to valid requests by public authorities.<br>
+      c. <strong>Business Transfers:</strong> In the event of a merger, acquisition, or asset sale, your information may be transferred as part of the transaction, provided the recipient agrees to protect your information in accordance with this Privacy Policy.</p>
+      <p><strong>4. Data Security</strong><br>
+      We use industry-standard security measures—including encryption, access controls, and regular security audits—to protect your information. While no security system is impenetrable, we strive to protect your Financial Data to the best of our ability.</p>
+      <p><strong>5. Data Retention</strong><br>
+      We retain your information only as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by law. When no longer needed, your data will be securely deleted or anonymized.</p>
+      <p><strong>6. Your Rights and Choices</strong><br>
+      a. <strong>Access and Correction:</strong> You have the right to access and correct your personal information.<br>
+      b. <strong>Deletion:</strong> Subject to legal obligations, you may request the deletion of your personal data.<br>
+      c. <strong>Opt-Out:</strong> You may opt out of receiving marketing communications by following the unsubscribe instructions in our emails.<br>
+      d. <strong>Data Portability:</strong> You may request a copy of your information in a machine-readable format.<br>
+      e. <strong>Privacy Settings:</strong> You may manage your browser settings to control cookies and similar technologies.</p>
+      <p><strong>7. Children’s Privacy</strong><br>
+      Our Application is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal data, please contact us immediately.</p>
+      <p><strong>8. International Data Transfers</strong><br>
+      Your information may be transferred to and maintained on servers outside your country. We take steps to ensure such transfers comply with applicable data protection laws.</p>
+      <p><strong>9. Changes to This Privacy Policy</strong><br>
+      We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. Your continued use of the Application signifies your acceptance of the revised policy.</p>
+      <p><strong>10. Contact Us</strong><br>
+      If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:<br>
+      Play At Scale Services, LLC<br>
+      lucashobbs@playatscale.com</p>
+      <p>By using our Application, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
     </div>
   </div>
 </body>
