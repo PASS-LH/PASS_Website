@@ -8,6 +8,11 @@
     name="description"
     content="Play At Scale Services helps organizations strengthen decision systems, operational governance, and performance clarity. Website coming soon."
   />
+
+  <!-- Browser tab icon -->
+  <link rel="icon" type="image/png" href="Scale_Hands_WhiteOnBlueRedLine.png" />
+  <link rel="shortcut icon" type="image/png" href="Scale_Hands_WhiteOnBlueRedLine.png" />
+
   <style>
     :root {
       --bg: #f4f7fb;
@@ -128,7 +133,7 @@
       flex-wrap: wrap;
       gap: 14px;
       justify-content: center;
-      margin-bottom: 28px;
+      margin-bottom: 18px;
       align-items: center;
     }
 
@@ -152,26 +157,41 @@
       border: 1px solid var(--border);
     }
 
-    .icon-button {
+    .logo-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      margin: 6px 0 28px;
+      flex-wrap: wrap;
+    }
+
+    .icon-button,
+    .image-link {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 48px;
-      height: 48px;
+      width: 52px;
+      height: 52px;
       border-radius: 12px;
       border: 1px solid var(--border);
-      color: var(--navy);
       background: transparent;
+      text-decoration: none;
       transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease;
+      overflow: hidden;
     }
 
-    .icon-button:hover {
+    .icon-button {
+      color: var(--navy);
+    }
+
+    .icon-button:hover,
+    .image-link:hover {
       transform: translateY(-1px);
       opacity: 0.96;
       background: rgba(47, 93, 138, 0.08);
     }
 
-    /* LinkedIn override */
     .linkedin {
       background: var(--linkedin);
       color: #ffffff;
@@ -180,6 +200,19 @@
 
     .linkedin:hover {
       background: var(--linkedin-hover);
+    }
+
+    .image-link img {
+      max-width: 30px;
+      max-height: 30px;
+      width: auto;
+      height: auto;
+      display: block;
+    }
+
+    .pnaa-logo img {
+      max-width: 34px;
+      max-height: 34px;
     }
 
     .footer {
@@ -221,6 +254,10 @@
       .button {
         width: 100%;
       }
+
+      .logo-links {
+        gap: 14px;
+      }
     }
   </style>
 </head>
@@ -243,7 +280,7 @@
 
         <p class="subtext">
           Play At Scale helps organizations bring structure and discipline to how decisions are made and executed.
-          
+
           We design decision systems, cost visibility, and operational governance that align business reality with customer expectations...
           improving margin, reducing friction, and enabling more effective execution.
         </p>
@@ -254,11 +291,28 @@
         </div>
 
         <div class="actions">
+          <a class="button button-secondary" href="https://429hw6.share-na2.hsforms.com/2hylGQz52S7KWtEBU-x6xDQ" target="_blank" rel="noopener noreferrer">
+            Start a Conversation
+          </a>
+        </div>
+
+        <div class="logo-links">
           <!-- Email -->
           <a class="icon-button" href="mailto:lucashobbs@playatscale.com" aria-label="Email">
             <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
               <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
             </svg>
+          </a>
+
+          <!-- PNAA Logo -->
+          <a
+            class="image-link pnaa-logo"
+            href="https://pacificnorthwestaerospacealliance.growthzoneapp.com/member-directory/Details/membership-directory-info-3871546"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="PNAA Member Profile"
+          >
+            <img src="PNAA_Logo.png" alt="PNAA logo" />
           </a>
 
           <!-- LinkedIn -->
@@ -267,21 +321,12 @@
               <path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5zM.5 8h4v12h-4V8zm7.5 0h3.8v1.64h.05c.53-1 1.82-2.06 3.75-2.06 4 0 4.75 2.63 4.75 6.05V20h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V20h-4V8z"/>
             </svg>
           </a>
-
-          <!-- HubSpot -->
-          <a class="button button-secondary" href="https://429hw6.share-na2.hsforms.com/2hylGQz52S7KWtEBU-x6xDQ" target="_blank">
-            Get In Touch
-          </a>
-
-          <!-- PNAA -->
-          <a class="button button-secondary" href="https://pacificnorthwestaerospacealliance.growthzoneapp.com/member-directory/Details/membership-directory-info-3871546" target="_blank">
-            PNAA Associate
-          </a>
         </div>
 
         <div class="footer">
-          Play At Scale<br />
-          Puget Sounce, Washington<br /><br />
+          Play At Scale Services<br />
+          Arlington, Washington<br /><br />
+          Email: <a href="mailto:lucashobbs@playatscale.com">lucashobbs@playatscale.com</a>
         </div>
       </div>
     </section>
