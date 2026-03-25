@@ -127,6 +127,7 @@
       gap: 14px;
       justify-content: center;
       margin-bottom: 28px;
+      align-items: center;
     }
 
     .button {
@@ -152,6 +153,25 @@
       background: transparent;
       color: var(--navy);
       border: 1px solid var(--border);
+    }
+
+    .icon-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      color: var(--navy);
+      background: transparent;
+      transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease;
+    }
+
+    .icon-button:hover {
+      transform: translateY(-1px);
+      opacity: 0.96;
+      background: rgba(47, 93, 138, 0.08);
     }
 
     .footer {
@@ -226,35 +246,28 @@
         </div>
 
         <div class="actions">
-          <a class="button button-primary" href="mailto:lucashobbs@playatscale.com">
-            Contact by Email
+          <!-- Email -->
+          <a class="icon-button" href="mailto:lucashobbs@playatscale.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
           </a>
 
-          <a
-            class="button button-secondary"
-            href="https://429hw6.share-na2.hsforms.com/2hylGQz52S7KWtEBU-x6xDQ"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Submit Inquiry
+          <!-- LinkedIn -->
+          <a class="icon-button" href="https://www.linkedin.com/in/lucashobbs" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5zM.5 8h4v12h-4V8zm7.5 0h3.8v1.64h.05c.53-1 1.82-2.06 3.75-2.06 4 0 4.75 2.63 4.75 6.05V20h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V20h-4V8z"/>
+            </svg>
           </a>
 
-          <a
-            class="button button-secondary"
-            href="https://pacificnorthwestaerospacealliance.growthzoneapp.com/member-directory/Details/membership-directory-info-3871546"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <!-- HubSpot -->
+          <a class="button button-secondary" href="https://429hw6.share-na2.hsforms.com/2hylGQz52S7KWtEBU-x6xDQ" target="_blank" rel="noopener noreferrer">
+            Start a Conversation
+          </a>
+
+          <!-- PNAA -->
+          <a class="button button-secondary" href="https://pacificnorthwestaerospacealliance.growthzoneapp.com/member-directory/Details/membership-directory-info-3871546" target="_blank" rel="noopener noreferrer">
             PNAA Member Profile
-          </a>
-
-          <a
-            class="button button-secondary"
-            href="https://www.linkedin.com/in/lucashobbs"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
           </a>
         </div>
 
