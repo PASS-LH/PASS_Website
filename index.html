@@ -6,11 +6,10 @@
   <title>Play At Scale Services</title>
   <meta
     name="description"
-    content="Play At Scale Services helps organizations strengthen decision systems, operational governance, and performance clarity. Website coming soon."
+    content="Play At Scale Services helps organizations strengthen decision systems, operational governance, and performance clarity."
   />
 
   <link rel="icon" type="image/png" href="3ArmLogo_WhiteBackground.jpg" />
-  <link rel="shortcut icon" type="image/png" href="3ArmLogo_WhiteBackground.jpg" />
 
   <style>
     :root {
@@ -29,25 +28,16 @@
       --shadow: 0 18px 45px rgba(15, 42, 69, 0.12);
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
-    html,
     body {
       margin: 0;
-      padding: 0;
       font-family: Arial, Helvetica, sans-serif;
       background:
         radial-gradient(circle at top left, rgba(47, 93, 138, 0.08), transparent 35%),
         linear-gradient(180deg, #f7f9fc 0%, #edf3f8 100%);
       color: var(--text);
-      min-height: 100%;
-    }
-
-    body {
       display: flex;
-      align-items: center;
       justify-content: center;
       padding: 36px 20px;
     }
@@ -67,374 +57,140 @@
 
     .top-bar {
       height: 8px;
-      background: linear-gradient(90deg, var(--navy) 0%, var(--blue) 65%, var(--red) 100%);
+      background: linear-gradient(90deg, var(--navy), var(--blue), var(--red));
     }
 
     .content {
-      padding: 42px 52px 42px;
+      padding: 42px 52px;
       text-align: center;
     }
 
-    .logo-wrap {
-      margin-bottom: 14px;
-    }
-
     .logo-wrap img {
-      max-width: 330px;
+      max-width: 300px;
       width: 100%;
-      height: auto;
-      display: inline-block;
-    }
-
-    .eyebrow {
-      display: inline-block;
-      margin-bottom: 14px;
-      padding: 8px 14px;
-      border: 1px solid rgba(47, 93, 138, 0.16);
-      border-radius: 999px;
-      background: rgba(47, 93, 138, 0.05);
-      color: var(--navy);
-      font-size: 0.82rem;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
     }
 
     h1 {
-      margin: 0 0 16px;
-      font-size: clamp(2.2rem, 4vw, 3.35rem);
-      line-height: 1.06;
+      font-size: 2.8rem;
       color: var(--navy-dark);
-      letter-spacing: -0.02em;
-    }
-
-    .headline-main {
-      display: block;
+      margin: 10px 0;
     }
 
     .accent {
-      display: block;
-      margin-top: 6px;
       color: var(--red);
-      font-size: 0.78em;
-      font-weight: 650;
-      letter-spacing: -0.01em;
+      font-size: 0.8em;
     }
 
     .subtext {
-      max-width: 650px;
-      margin: 0 auto 24px;
-      font-size: 1.18rem;
+      max-width: 700px;
+      margin: 14px auto;
       line-height: 1.7;
       color: var(--muted);
     }
 
     .status-box {
-      max-width: 620px;
-      margin: 0 auto 24px;
-      padding: 16px 18px;
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 18px;
       background: var(--soft-panel);
       border: 1px solid var(--border);
-      border-radius: 16px;
-      color: var(--text);
-      font-size: 1rem;
-      line-height: 1.65;
-    }
-
-    .actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: center;
-      margin-bottom: 10px;
-      align-items: center;
+      border-radius: 14px;
+      text-align: left;
     }
 
     .button {
       display: inline-block;
-      padding: 15px 24px;
-      border-radius: 12px;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 1rem;
-      transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease, border-color 0.2s ease;
-    }
-
-    .button:hover {
-      transform: translateY(-1px);
-      opacity: 0.98;
-    }
-
-    .button-primary {
+      padding: 14px 24px;
       background: var(--navy);
-      color: #ffffff;
-      border: 1px solid var(--navy);
-      box-shadow: 0 10px 20px rgba(22, 58, 95, 0.14);
-    }
-
-    .button-primary:hover {
-      background: var(--navy-dark);
-      border-color: var(--navy-dark);
-    }
-
-    .logo-links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 16px;
-      margin: 4px 0 30px;
-      flex-wrap: wrap;
-    }
-
-    .icon-button,
-    .image-link {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 54px;
-      height: 54px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      background: #ffffff;
+      color: white;
+      border-radius: 10px;
       text-decoration: none;
-      transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
-      overflow: hidden;
-      box-shadow: 0 3px 10px rgba(15, 42, 69, 0.04);
-    }
-
-    .icon-button {
-      color: var(--navy);
-    }
-
-    .icon-button:hover,
-    .image-link:hover {
-      transform: translateY(-1px);
-      opacity: 0.98;
-      background: rgba(47, 93, 138, 0.06);
-      box-shadow: 0 8px 16px rgba(15, 42, 69, 0.08);
-    }
-
-    .linkedin {
-      background: var(--linkedin);
-      color: #ffffff;
-      border: 1px solid var(--linkedin);
-      box-shadow: 0 8px 16px rgba(10, 102, 194, 0.18);
-    }
-
-    .linkedin:hover {
-      background: var(--linkedin-hover);
-      border-color: var(--linkedin-hover);
-    }
-
-    .image-link img {
-      max-width: 32px;
-      max-height: 32px;
-      width: auto;
-      height: auto;
-      display: block;
-    }
-
-    .pnaa-logo img {
-      max-width: 36px;
-      max-height: 36px;
+      font-weight: bold;
+      margin-top: 20px;
     }
 
     .footer {
-      font-size: 0.98rem;
-      color: var(--muted);
+      margin-top: 30px;
+      padding-top: 20px;
       border-top: 1px solid var(--border);
-      padding-top: 18px;
-      margin-top: 6px;
-      line-height: 1.55;
+      color: var(--muted);
+      font-size: 0.95rem;
     }
 
-    .footer a {
-      color: var(--blue);
-      text-decoration: none;
-      font-weight: 600;
+    h2 {
+      margin-top: 40px;
+      color: var(--navy-dark);
     }
 
-    .footer a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 768px) {
-      .content {
-        padding: 36px 28px 34px;
-      }
-
-      .logo-wrap img {
-        max-width: 270px;
-      }
-
-      .subtext {
-        max-width: 100%;
-        font-size: 1.06rem;
-      }
-
-      .status-box {
-        max-width: 100%;
-        font-size: 0.98rem;
-      }
-    }
-
-    @media (max-width: 640px) {
-      body {
-        padding: 18px 12px;
-      }
-
-      .shell {
-        max-width: 100%;
-      }
-
-      .content {
-        padding: 30px 18px 28px;
-      }
-
-      .logo-wrap {
-        margin-bottom: 10px;
-      }
-
-      .logo-wrap img {
-        max-width: 220px;
-      }
-
-      .eyebrow {
-        font-size: 0.74rem;
-        margin-bottom: 12px;
-      }
-
-      h1 {
-        font-size: clamp(1.95rem, 8vw, 2.55rem);
-      }
-
-      .accent {
-        margin-top: 4px;
-        font-size: 0.8em;
-      }
-
-      .subtext,
-      .status-box {
-        font-size: 0.98rem;
-      }
-
-      .actions {
-        flex-direction: column;
-      }
-
-      .button {
-        width: 100%;
-      }
-
-      .logo-links {
-        gap: 12px;
-        margin-bottom: 24px;
-      }
-
-      .icon-button,
-      .image-link {
-        width: 50px;
-        height: 50px;
-      }
-
-      .footer {
-        font-size: 0.92rem;
-      }
-    }
   </style>
 </head>
+
 <body>
   <main class="shell">
     <section class="card">
       <div class="top-bar"></div>
 
       <div class="content">
+
         <div class="logo-wrap">
           <img src="3ArmLogo_WhiteBackground.jpg" alt="Play At Scale Services logo" />
         </div>
 
-        <div class="eyebrow">Website in development</div>
-
         <h1>
-          <span class="headline-main">Better decision infrastructure...</span>
+          Better decision infrastructure...
           <span class="accent">coming soon.</span>
         </h1>
 
         <p class="subtext">
-          Play At Scale helps organizations balance the leverage dynamics, between small- and mid-sized businesses and their larger counterparts, by bringing Enterprise-grade structure and discipline to how decisions are made and executed.
-          
-          We design decision systems, cost visibility, and operational governance that align business reality with customer expectations...
-          
-          improving margin, reducing friction, and enabling more effective execution.
+          Play At Scale helps organizations balance leverage dynamics between smaller operators and large enterprise customers by bringing structure, clarity, and discipline to how decisions are made and executed.
         </p>
 
         <div class="status-box">
-          Independent advisory practice based in the Pacific Northwest and active PNAA member...
-          supporting organizations across manufacturing, supply chain, and complex operational environments.
+          Independent advisory practice based in the Pacific Northwest... supporting organizations across manufacturing, aerospace, and complex supply chain environments.
         </div>
 
-        <div class="actions">
-          <a
-            class="button button-primary"
-            href="https://429hw6.share-na2.hsforms.com/2hylGQz52S7KWtEBU-x6xDQ"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Start a Conversation
-          </a>
-        </div>
+        <a class="button" href="https://meetings-na2.hubspot.com/lucas-hobbs" target="_blank">
+          Start a Conversation
+        </a>
 
-        <div class="logo-links">
-          <!-- Email -->
-          <a class="icon-button" href="mailto:lucashobbs@playatscale.com" aria-label="Email">
-            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
-              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
-            </svg>
-          </a>
+        <!-- BIO SECTION -->
 
-          <!-- Schedule -->
-          <a
-            class="icon-button"
-            href="https://meetings-na2.hubspot.com/lucas-hobbs"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Schedule a Meeting"
-          >
-            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
-              <path d="M19 4h-1V2h-2v2H8V2H6v2H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-8h16zm0-10H4V7a1 1 0 0 1 1-1h1v2h2V6h8v2h2V6h1a1 1 0 0 1 1 1z"/>
-            </svg>
-          </a>
+        <h2>Background</h2>
 
-          <!-- PNAA -->
-          <a
-            class="image-link pnaa-logo"
-            href="https://pacificnorthwestaerospacealliance.growthzoneapp.com/member-directory/Details/membership-directory-info-3871546"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="PNAA Member Profile"
-          >
-            <img src="PNAA_Logo.png" alt="PNAA logo" />
-          </a>
+        <p class="subtext">
+          Lucas Hobbs is an aerospace commercial and finance leader with over a decade of experience operating inside complex OEM supply chain environments. His background spans contract evaluation, pricing analysis, supplier negotiations, and cross-functional commercial decision support.
+        </p>
 
-          <!-- LinkedIn -->
-          <a
-            class="icon-button linkedin"
-            href="https://www.linkedin.com/in/lucashobbs"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-          >
-            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
-              <path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5zM.5 8h4v12h-4V8zm7.5 0h3.8v1.64h.05c.53-1 1.82-2.06 3.75-2.06 4 0 4.75 2.63 4.75 6.05V20h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V20h-4V8z"/>
-            </svg>
-          </a>
+        <p class="subtext">
+          He has worked extensively in high-pressure commercial contexts where contract structure, cost visibility, and disciplined positioning directly impact financial outcomes.
+        </p>
+
+        <p class="subtext">
+          Play At Scale Services was founded to help organizations defend margin, clarify exposure, and operate with stronger positioning when navigating complex customer and operational dynamics.
+        </p>
+
+        <p class="subtext">
+          All advisory work is grounded in client-provided data, contract terms, and documented business context, ensuring analysis is transparent, defensible, and actionable.
+        </p>
+
+        <!-- AREAS OF FOCUS -->
+
+        <div class="status-box">
+          <strong>Areas of Focus</strong><br><br>
+          • OEM claim analysis and rebuttal support<br>
+          • Contract interpretation and commercial risk assessment<br>
+          • Supplier-side negotiation preparation and strategy<br>
+          • Pricing and cost recovery analysis<br>
+          • Margin protection and exposure assessment<br>
+          • Executive-level issue framing and escalation preparation
         </div>
 
         <div class="footer">
           Play At Scale Services<br />
           Arlington, Washington<br /><br />
-          Email: <a href="mailto:lucashobbs@playatscale.com">lucashobbs@playatscale.com</a>
+          Email: lucashobbs@playatscale.com
         </div>
+
       </div>
     </section>
   </main>
