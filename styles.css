@@ -245,10 +245,10 @@ p { margin: 0; }
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: #0d0d10;
+  background: var(--white);
   box-shadow: var(--shadow);
 }
-.feature-frame img { width: 100%; aspect-ratio: 1.42; object-fit: cover; object-position: top; }
+.feature-frame img { width: 100%; height: auto; display: block; object-fit: contain; object-position: center; }
 .feature-frame figcaption { padding: 12px 15px; color: #c7c9ce; background: #111217; font-size: 0.78rem; }
 .feature-copy h2 { color: var(--navy); }
 .feature-copy p { margin-top: 18px; color: var(--muted); }
@@ -302,8 +302,8 @@ p { margin: 0; }
 
 .case-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 40px; }
 .case-card { border: 1px solid var(--line); background: var(--white); }
-.case-card .case-image { background: #0f1013; border-bottom: 1px solid var(--line); }
-.case-card img { width: 100%; aspect-ratio: 1.43; object-fit: cover; object-position: top; }
+.case-card .case-image { background: var(--white); border-bottom: 1px solid var(--line); overflow: hidden; }
+.case-card img { width: 100%; height: auto; display: block; object-fit: contain; object-position: center; }
 .case-body { padding: 26px; }
 .case-label { color: var(--red); font-size: 0.72rem; font-weight: 900; letter-spacing: 0.12em; text-transform: uppercase; }
 .case-body h3 { margin-top: 9px; color: var(--navy); }
