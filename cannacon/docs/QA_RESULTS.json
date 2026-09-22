@@ -1,0 +1,88 @@
+{
+  "test_mode": "Chromium DOM with inlined local assets; external networking unavailable; storage mock",
+  "static": {
+    "html_pages": 18,
+    "broken_internal_links": [],
+    "duplicate_ids": [],
+    "jotform_references_in_site": false
+  },
+  "behavior": {
+    "first_visit_age_gate": true,
+    "restricted_screen": true,
+    "escape_cannot_bypass": true,
+    "age_storage_written": true,
+    "privacy_storage_written": true,
+    "age_ack_respected_on_next_page": true,
+    "all_access_plus_bundle": "$600",
+    "individual_clears_bundle": true,
+    "all_access_plus_session1": "$200",
+    "one_day_plus_session1": "$140",
+    "bundle_clears_individuals": true,
+    "one_day_plus_bundle": "$540",
+    "checkout_disabled": true,
+    "vegas_extras_not_assumed": true,
+    "native_email_forms": {
+      "exhibitor": {
+        "draft_shown": true,
+        "correct_recipient": true,
+        "subject": "CannaCon | Exhibitor Inquiry",
+        "not_sent_notice": true,
+        "no_iframe": true,
+        "other_field_shown": true,
+        "edited_draft_hidden": true,
+        "other_field_disabled": true
+      },
+      "speaker": {
+        "draft_shown": true,
+        "correct_recipient": true,
+        "subject": "CannaCon | Speaker Inquiry",
+        "not_sent_notice": true,
+        "no_iframe": true,
+        "other_field_shown": true,
+        "edited_draft_hidden": true,
+        "other_field_disabled": true
+      },
+      "sponsor": {
+        "draft_shown": true,
+        "correct_recipient": true,
+        "subject": "CannaCon | Sponsor Inquiry",
+        "not_sent_notice": true,
+        "no_iframe": true,
+        "other_field_shown": true,
+        "edited_draft_hidden": true,
+        "other_field_disabled": true
+      },
+      "buyer": {
+        "draft_shown": true,
+        "correct_recipient": true,
+        "subject": "Infused Product Expo | Hosted Buyer Request",
+        "not_sent_notice": true,
+        "no_iframe": true,
+        "other_field_shown": true,
+        "edited_draft_hidden": true,
+        "other_field_disabled": true
+      }
+    },
+    "mobile_menu_opens": true,
+    "mobile_menu_escape": true,
+    "newsletter_no_false_success": true,
+    "media_consent_stored": true,
+    "reset_age_prompts": true
+  },
+  "browser_errors": [],
+  "responsive": {
+    "widths_tested": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "page_layouts_tested": 72,
+    "horizontal_overflow": []
+  },
+  "integrity": {
+    "original_sales_pdfs_unchanged": true,
+    "original_play_at_scale_files_changed": [],
+    "standalone_font_files_included": false
+  }
+}
