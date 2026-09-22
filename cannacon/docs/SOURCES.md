@@ -1,33 +1,58 @@
-# Source provenance / 2026-09-22 preview
+# Source provenance
 
-## Authoritative business inputs
+## Authoritative CannaCon inputs
 
-Owner instructions in this conversation: CannaCon-first branding, tagline, pavilions, St. Paul dates/hours, replication of the regional pre-day format to Virginia Beach, prices, inquiry recipient and buyer subject, approved socials, no GanjaPreneur relationship, no confirmed sponsors, Constant Contact prototype, and the request to skip Jotform.
+Business/event decisions supplied directly by CannaCon/Catalyst govern this build, including:
+
+- CannaCon-first master brand and tagline.
+- CannaCon Presents framing and pavilion ecosystem.
+- St. Paul 2027 pre-day and expo schedule.
+- Virginia Beach 2027 regional pre-day and expo schedule.
+- Las Vegas held to `May 2027` until exact dates are reconciled.
+- Regional pass and financial-course pricing.
+- `lucas@cannacon.org` as the current inquiry recipient.
+- LinkedIn and YouTube as current active social links.
+- No current Ganjapreneur partnership representation.
+- Exhibitor sales as the highest-priority web conversion.
+- Request to avoid Jotform dependency and use a lower-complexity interim submission approach.
 
 ## Supplied files
 
-- PASS_Website-main.zip: deployed placeholder structure and existing Play At Scale website.
-- CANNACON OFFICIAL LOGO ELEMENTS.ai: official wordmark, hand and wave artwork. Brand PNG assets are clipped raster exports of that artwork; it was not redrawn.
-- CannaCon_Combined_SalesDeck_vDist.pdf: supplied unchanged as `assets/decks/cannacon-sales-deck.pdf`.
-- INFUSED_Las_Vegas_Sales_Deck_vDist.pdf: supplied unchanged as `assets/decks/las-vegas-sales-deck.pdf`.
-- Buyer_VIP_Deck_with_Buyer_Form_Link.pdf: supplied unchanged as `assets/decks/hosted-buyer-guide.pdf`. Buyer-type and category choices inform the native inquiry.
-- WordPress export dated September 21, 2026: existing editorial titles, original dates, URLs and images. Article bodies have not been copied into the prototype or newly revalidated.
+- `PASS_Website-main.zip` — original deployed staging repository reference.
+- `CANNACON OFFICIAL LOGO ELEMENTS.ai` — official CannaCon brand artwork.
+- `CannaCon_Combined_SalesDeck_vDist.pdf` — CannaCon commercial positioning, pavilion architecture and execution-history reference; included as `assets/decks/cannacon-sales-deck.pdf`.
+- `INFUSED_Las_Vegas_Sales_Deck_vDist.pdf` — Las Vegas value-chain/exhibitor opportunity reference; included as `assets/decks/las-vegas-sales-deck.pdf`.
+- `Buyer_VIP_Deck_with_Buyer_Form_Link.pdf` — Hosted Buyer positioning and buyer/category reference; included as `assets/decks/hosted-buyer-guide.pdf`.
+- WordPress export and SEO/analytics audit materials from the CannaCon 2.0 migration project — existing articles, URLs, redirects and editorial priority context.
 
-## Public reference sites reviewed
+## UX / conversion benchmark sites reviewed
 
-- https://cannacon.org/west/west-las-vegas-2027/
-- https://cannacon.org/become-an-exhibitor/
-- https://mjbizconference.com/
-- https://mjbizconference.com/exhibit-inquire/
-- https://necann.com/
-- https://necann.com/more-information/
-- https://necann.com/speaker/
-- https://mjunpacked.com/
-- https://www.rootedexpo.com/ (public text extraction required JavaScript; no assertion of a full visual scrape).
+These are interaction/architecture references only. No competitor copy or creative assets are reproduced.
 
-Shared interaction patterns used: immediate exhibitor/attendee pathways, visible show information, independent buyer/speaker paths, publicly available decks, category-specific inquiries, editorial discovery and show-floor media. Competitor assets and text are not copied.
+- NECANN: https://necann.com/
+- NECANN exhibitor options: https://necann.com/exhibitor-options/
+- MJBizCon: https://mjbizconference.com/
+- MJBizCon Hosted Buyer: https://mjbizconference.com/hosted-buyer-program/
+- MJBizCon buyer programs: https://mjbizconference.com/buyer-programs/
+- CES exhibitor conversion: https://exhibit.ces.tech/exhibit2027/
+- Shoptalk Spring: https://spring.shoptalk.com/
+- Natural Products Expo West: https://www.expowest.com/
+- MJ Unpacked: https://mjunpacked.com/
+- Rooted Expo: https://www.rootedexpo.com/
+- SaaStr Annual: https://saastrannual.com/
 
-## Approved remote media
+Patterns used as references:
+
+- event dates/location immediately visible;
+- role-based Attend / Exhibit / Sponsor / Buyer paths;
+- direct sales contact;
+- exhibitor proof before long qualification forms;
+- show-floor/floor-plan utilities treated as core tasks;
+- buyer programs framed around time/value rather than bureaucracy;
+- persistent or repeated high-intent commercial CTAs;
+- social proof and execution evidence close to conversion decisions.
+
+## Approved remote media currently referenced
 
 - https://cannacon.org/wp-content/uploads/DSC2681-1-1200x800-2.jpg
 - https://cannacon.org/wp-content/uploads/CannaCon2019_MSP_013119-202.jpg
@@ -35,12 +60,12 @@ Shared interaction patterns used: immediate exhibitor/attendee pathways, visible
 - https://cannacon.org/wp-content/uploads/EXHIBITOR-MONTAGE-1.mp4
 - https://www.youtube-nocookie.com/embed/UnAv5nVQzks
 
-The three show-floor photos were accessible through web review. Video playback and Map Dynamics rendering still need a live browser check. The code-generation runtime cannot download these external files; they are linked, not bundled. Branded fallback backgrounds appear if images fail.
+These should be localized into Catalyst-controlled hosting before the legacy CannaCon host is retired.
 
 ## Technical references
 
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a (mailto opens an email client; it is not server-side submission).
-- https://developers.google.com/search/docs/crawling-indexing/block-indexing (noindex must be discoverable by a crawler; it is not access control).
-- https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages (static hosting).
+- GitHub Pages: https://docs.github.com/en/pages
+- Search noindex guidance: https://developers.google.com/search/docs/crawling-indexing/block-indexing
+- HTML forms/autocomplete: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms
 
-No private WordPress dump, form submissions, credentials, font files or sponsorship payment amounts are shipped.
+No credentials, private customer data, form submissions or standalone font files are included.

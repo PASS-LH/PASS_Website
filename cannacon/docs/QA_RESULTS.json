@@ -1,88 +1,204 @@
 {
-  "test_mode": "Chromium DOM with inlined local assets; external networking unavailable; storage mock",
+  "generated_at": "2026-09-22",
+  "build_version": "20260922d",
+  "test_scope": "static/source integrity; live browser and third-party integrations require post-deployment acceptance test",
   "static": {
     "html_pages": 18,
-    "broken_internal_links": [],
+    "broken_internal_refs": [],
     "duplicate_ids": [],
-    "jotform_references_in_site": false
+    "noindex_missing": [],
+    "visitor_scaffold_language_hits": [],
+    "jotform_references_in_html": false
   },
-  "behavior": {
-    "first_visit_age_gate": true,
-    "restricted_screen": true,
-    "escape_cannot_bypass": true,
-    "age_storage_written": true,
-    "privacy_storage_written": true,
-    "age_ack_respected_on_next_page": true,
-    "all_access_plus_bundle": "$600",
-    "individual_clears_bundle": true,
-    "all_access_plus_session1": "$200",
-    "one_day_plus_session1": "$140",
-    "bundle_clears_individuals": true,
-    "one_day_plus_bundle": "$540",
-    "checkout_disabled": true,
-    "vegas_extras_not_assumed": true,
-    "native_email_forms": {
-      "exhibitor": {
-        "draft_shown": true,
-        "correct_recipient": true,
-        "subject": "CannaCon | Exhibitor Inquiry",
-        "not_sent_notice": true,
-        "no_iframe": true,
-        "other_field_shown": true,
-        "edited_draft_hidden": true,
-        "other_field_disabled": true
-      },
-      "speaker": {
-        "draft_shown": true,
-        "correct_recipient": true,
-        "subject": "CannaCon | Speaker Inquiry",
-        "not_sent_notice": true,
-        "no_iframe": true,
-        "other_field_shown": true,
-        "edited_draft_hidden": true,
-        "other_field_disabled": true
-      },
-      "sponsor": {
-        "draft_shown": true,
-        "correct_recipient": true,
-        "subject": "CannaCon | Sponsor Inquiry",
-        "not_sent_notice": true,
-        "no_iframe": true,
-        "other_field_shown": true,
-        "edited_draft_hidden": true,
-        "other_field_disabled": true
-      },
-      "buyer": {
-        "draft_shown": true,
-        "correct_recipient": true,
-        "subject": "Infused Product Expo | Hosted Buyer Request",
-        "not_sent_notice": true,
-        "no_iframe": true,
-        "other_field_shown": true,
-        "edited_draft_hidden": true,
-        "other_field_disabled": true
-      }
+  "forms": {
+    "exhibitor": {
+      "visible_lead_fields": 6,
+      "required": 4,
+      "optional": 2,
+      "fields": [
+        {
+          "name": "fullName",
+          "required": true
+        },
+        {
+          "name": "email",
+          "required": true
+        },
+        {
+          "name": "company",
+          "required": true
+        },
+        {
+          "name": "show",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "required": false
+        },
+        {
+          "name": "message",
+          "required": false
+        }
+      ]
     },
-    "mobile_menu_opens": true,
-    "mobile_menu_escape": true,
-    "newsletter_no_false_success": true,
-    "media_consent_stored": true,
-    "reset_age_prompts": true
+    "sponsor": {
+      "visible_lead_fields": 6,
+      "required": 4,
+      "optional": 2,
+      "fields": [
+        {
+          "name": "fullName",
+          "required": true
+        },
+        {
+          "name": "email",
+          "required": true
+        },
+        {
+          "name": "company",
+          "required": true
+        },
+        {
+          "name": "show",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "required": false
+        },
+        {
+          "name": "message",
+          "required": false
+        }
+      ]
+    },
+    "speaker": {
+      "visible_lead_fields": 7,
+      "required": 6,
+      "optional": 1,
+      "fields": [
+        {
+          "name": "fullName",
+          "required": true
+        },
+        {
+          "name": "email",
+          "required": true
+        },
+        {
+          "name": "company",
+          "required": true
+        },
+        {
+          "name": "show",
+          "required": true
+        },
+        {
+          "name": "title",
+          "required": true
+        },
+        {
+          "name": "message",
+          "required": true
+        },
+        {
+          "name": "website",
+          "required": false
+        }
+      ]
+    },
+    "buyer": {
+      "visible_lead_fields": 9,
+      "required": 7,
+      "optional": 2,
+      "fields": [
+        {
+          "name": "fullName",
+          "required": true
+        },
+        {
+          "name": "email",
+          "required": true
+        },
+        {
+          "name": "company",
+          "required": true
+        },
+        {
+          "name": "role",
+          "required": true
+        },
+        {
+          "name": "show",
+          "required": true
+        },
+        {
+          "name": "businessType",
+          "required": true
+        },
+        {
+          "name": "categories",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "required": false
+        },
+        {
+          "name": "message",
+          "required": false
+        }
+      ]
+    },
+    "contact": {
+      "visible_lead_fields": 6,
+      "required": 3,
+      "optional": 3,
+      "fields": [
+        {
+          "name": "fullName",
+          "required": true
+        },
+        {
+          "name": "email",
+          "required": true
+        },
+        {
+          "name": "inquiryType",
+          "required": true
+        },
+        {
+          "name": "company",
+          "required": false
+        },
+        {
+          "name": "show",
+          "required": false
+        },
+        {
+          "name": "message",
+          "required": false
+        }
+      ]
+    }
   },
-  "browser_errors": [],
-  "responsive": {
-    "widths_tested": [
-      320,
-      390,
-      768,
-      1440
-    ],
-    "page_layouts_tested": 72,
-    "horizontal_overflow": []
+  "syntax": {
+    "cannacon_js": "node --check passed",
+    "build_mjs": "node --check passed"
   },
-  "integrity": {
-    "original_sales_pdfs_unchanged": true,
-    "original_play_at_scale_files_changed": [],
-    "standalone_font_files_included": false
-  }
+  "screenshots": {
+    "homepage_desktop": "docs/qa/homepage-desktop.png",
+    "homepage_mobile": "docs/qa/homepage-mobile.png",
+    "exhibitor_form": "docs/qa/exhibitor-form.png",
+    "note": "Offline static layout renders only; not substitutes for live browser acceptance testing."
+  },
+  "known_external_validation": [
+    "Remote CannaCon.org images/video",
+    "Map Dynamics destinations",
+    "mailto client behavior and inbox receipt",
+    "real form POST endpoint (not configured)",
+    "payment/registration provider (not configured)",
+    "Constant Contact newsletter endpoint (not configured)"
+  ]
 }

@@ -20,7 +20,6 @@
     "heroImage": "https://cannacon.org/wp-content/uploads/DSC2681-1-1200x800-2.jpg",
     "heroVideo": "https://cannacon.org/wp-content/uploads/EXHIBITOR-MONTAGE-1.mp4",
     "heroVideoAutoplay": false,
-    "heroVideoNote": "Remote original is not yet size-optimized. Manual play protects loading time until an optimized local loop is supplied.",
     "youtubeEmbed": "https://www.youtube-nocookie.com/embed/UnAv5nVQzks",
     "showFloor": "https://cannacon.org/wp-content/uploads/DSC2681-1-1200x800-2.jpg",
     "conversations": "https://cannacon.org/wp-content/uploads/CannaCon2019_MSP_013119-202.jpg",
@@ -28,52 +27,34 @@
   },
   "forms": {
     "exhibitor": {
-      "title": "CannaCon Exhibitor & General Inquiry",
+      "title": "Exhibitor inquiry",
       "subject": "CannaCon | Exhibitor Inquiry",
       "mode": "email-draft",
-      "inquiryTypes": [
-        "Exhibit / Booth availability",
-        "Product showcase",
-        "Sponsorship question",
-        "General inquiry",
-        "Other"
-      ]
+      "endpoint": null
     },
     "speaker": {
-      "title": "CannaCon Speaker & Education Inquiry",
+      "title": "Speaker & programming inquiry",
       "subject": "CannaCon | Speaker Inquiry",
       "mode": "email-draft",
-      "inquiryTypes": [
-        "Speaker proposal",
-        "Panel proposal",
-        "Workshop",
-        "Culture programming",
-        "Other"
-      ]
+      "endpoint": null
     },
     "sponsor": {
-      "title": "CannaCon Sponsor & Partnership Inquiry",
+      "title": "Sponsor & partnership inquiry",
       "subject": "CannaCon | Sponsor Inquiry",
       "mode": "email-draft",
-      "inquiryTypes": [
-        "Event sponsorship",
-        "Pavilion sponsorship",
-        "Activation / Product showcase",
-        "Media or content collaboration",
-        "Strategic partnership",
-        "Other"
-      ]
+      "endpoint": null
     },
     "buyer": {
-      "title": "Infused Product Expo | Hosted Buyer Request",
+      "title": "Hosted Buyer Request",
       "subject": "Infused Product Expo | Hosted Buyer Request",
       "mode": "email-draft",
-      "inquiryTypes": [
-        "Hosted buyer application",
-        "Buyer-supplier matching",
-        "Program question",
-        "Other"
-      ]
+      "endpoint": null
+    },
+    "contact": {
+      "title": "Contact CannaCon",
+      "subject": "CannaCon | General Inquiry",
+      "mode": "email-draft",
+      "endpoint": null
     }
   },
   "decks": [
@@ -82,21 +63,21 @@
       "label": "CannaCon sales deck",
       "file": "assets/decks/cannacon-sales-deck.pdf",
       "cover": "assets/images/cannacon-sales-deck-cover.webp",
-      "note": "Reference deck. The website distinguishes the pre-show day from expo days."
+      "note": "Overview of CannaCon exhibitor opportunities, pavilions and the 2027 event portfolio."
     },
     {
       "title": "Las Vegas: from roots to retail",
       "label": "Las Vegas sales deck",
       "file": "assets/decks/las-vegas-sales-deck.pdf",
       "cover": "assets/images/las-vegas-sales-deck-cover.webp",
-      "note": "Reference deck uses the earlier Infused-first branding. All events are now presented as CannaCon."
+      "note": "Las Vegas opportunity overview for the Infused Product Expo and the wider CannaCon ecosystem."
     },
     {
       "title": "Hosted buyers & one-to-one meetings",
       "label": "Hosted buyer guide",
       "file": "assets/decks/hosted-buyer-guide.pdf",
       "cover": "assets/images/hosted-buyer-guide-cover.webp",
-      "note": "The guide lists May 14-15, 2027; the legacy website lists May 13-14. Exact Vegas dates remain under review."
+      "note": "Hosted Buyer overview, buyer profiles and one-to-one meeting program."
     }
   ],
   "pavilions": [
@@ -331,5 +312,5 @@
       "excerpt": "Explore CannaCon's existing travel and culture editorial."
     }
   ],
-  "previewVersion": "20260922b"
+  "previewVersion": "20260922d"
 }

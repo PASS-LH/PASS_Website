@@ -1,187 +1,226 @@
-[
-  {
-    "path": "cannacon/LV27/index.html",
-    "bytes": 15189,
-    "sha256": "2e2a00cc1efb22fe8240469208c9c46e52f4a776d9325f70a16cc3ef88ce5212"
-  },
-  {
-    "path": "cannacon/MN27/index.html",
-    "bytes": 16862,
-    "sha256": "f1fba2867e643a17f2ea3da88c03df072ddde0b36d19197afc8c3f8ee2a0d689"
-  },
-  {
-    "path": "cannacon/README.md",
-    "bytes": 6975,
-    "sha256": "8e31ce2b0ea6135ef6bf3c331e1f116568cef2e270d6eae7cba8968265f9da0a"
-  },
-  {
-    "path": "cannacon/VA27/index.html",
-    "bytes": 16954,
-    "sha256": "c2e0dc205381e76c7bd70f37372404dfaff57dde394214ccc0b4b3d94b0c7056"
-  },
-  {
-    "path": "cannacon/about.html",
-    "bytes": 11543,
-    "sha256": "5f31e277bb749943f73c7f8177676b11790b2efae8b172fed48ff0a25d78b586"
-  },
-  {
-    "path": "cannacon/assets/brand/brand-wave.png",
-    "bytes": 10520,
-    "sha256": "9a2f43a18306c12f6d316a099ea399f410fa8ecbe714e81b6362b2f28a22220a"
-  },
-  {
-    "path": "cannacon/assets/brand/cannacon-hand.png",
-    "bytes": 16582,
-    "sha256": "bb7baa37a5b4377d11a7bf86bb8b73ff646b1d53189ec1839d9230e181072843"
-  },
-  {
-    "path": "cannacon/assets/brand/cannacon-wordmark.png",
-    "bytes": 51862,
-    "sha256": "bdb83e4e601a23c52ba702f5ab79cce54202383049bb86fbc88d6776b5a64e0c"
-  },
-  {
-    "path": "cannacon/assets/decks/cannacon-sales-deck.pdf",
-    "bytes": 2128888,
-    "sha256": "5ab7f7fcdf289620c996072223903252b3e1240c59647763f98e75af82ed7cf3"
-  },
-  {
-    "path": "cannacon/assets/decks/hosted-buyer-guide.pdf",
-    "bytes": 1457716,
-    "sha256": "38d9a968c17535c92370793411a351c54bc53624b12359291328cf297c70638d"
-  },
-  {
-    "path": "cannacon/assets/decks/las-vegas-sales-deck.pdf",
-    "bytes": 2515584,
-    "sha256": "f278cd840bae669909d9dfa59de2bf68a2f94aba8c884782c5e15a4eea445990"
-  },
-  {
-    "path": "cannacon/assets/images/cannacon-sales-deck-cover.webp",
-    "bytes": 49518,
-    "sha256": "5873f8f225c900cafb299def3928ac4ea6ddcbdd11dec1f47a38b08d96a807d4"
-  },
-  {
-    "path": "cannacon/assets/images/hosted-buyer-guide-cover.webp",
-    "bytes": 59352,
-    "sha256": "d1e2f14b466f24544391da409c61e0aeda9b997b8629273b208975717a89e2ad"
-  },
-  {
-    "path": "cannacon/assets/images/las-vegas-sales-deck-cover.webp",
-    "bytes": 57830,
-    "sha256": "7da08a6ef06f9ea14602886782099d81fa03512b8217157ba3227855192100d5"
-  },
-  {
-    "path": "cannacon/attend.html",
-    "bytes": 14791,
-    "sha256": "9f27c38cd876fb7a6b7e89a2e8eae8114fe99f60acfc18a8ddeaadc857f35aec"
-  },
-  {
-    "path": "cannacon/build.mjs",
-    "bytes": 50640,
-    "sha256": "5ae5fa7e603613f63197097941289d20856197e39e1f95287b20dcbdb8976d5c"
-  },
-  {
-    "path": "cannacon/cannacon.css",
-    "bytes": 34604,
-    "sha256": "9718bd0afa40c03e0e0d139eec566cd2e6d89e3588cbbed549083201b9030dbf"
-  },
-  {
-    "path": "cannacon/cannacon.js",
-    "bytes": 13756,
-    "sha256": "dfc7767a22df062f861d5384124277f24049444c8d63f34612fd3c2b37de78b5"
-  },
-  {
-    "path": "cannacon/contact.html",
-    "bytes": 8405,
-    "sha256": "62bc28605132b06208e73dbb6b59030f842d7bccc0411c4ea1e4d98bb3ea8432"
-  },
-  {
-    "path": "cannacon/content/site.json",
-    "bytes": 11796,
-    "sha256": "c1df8eaac6a84e75e219bd96d93d682f2ea55358309532216c8fa095a3fcfa7f"
-  },
-  {
-    "path": "cannacon/decks.html",
-    "bytes": 9823,
-    "sha256": "9d5b0bde152c878facd0b1b0448dfaf7af0e5c3f12760ac0240d17e2966fbf82"
-  },
-  {
-    "path": "cannacon/docs/LIVE_TEST_CHECKLIST.md",
-    "bytes": 3201,
-    "sha256": "0ea2265641f17220b4bc9710e67ba11a3c7387c9e2513c30b06d11e073214fb5"
-  },
-  {
-    "path": "cannacon/docs/OPEN_DECISIONS.md",
-    "bytes": 3745,
-    "sha256": "409d64b63500159894a603a64fc49f723f41d04cc9cc0f0f03470f231a0a7e9f"
-  },
-  {
-    "path": "cannacon/docs/QA_RESULTS.json",
-    "bytes": 2576,
-    "sha256": "c0eeadeda19f9db4f4ec6297b29cff70ad40e7783789ad3ddc07559bb248fa23"
-  },
-  {
-    "path": "cannacon/docs/SOURCES.md",
-    "bytes": 3136,
-    "sha256": "1f022e5d0fcfc724710e6e99206c558a7efccd3738417624fa33b92dca4d86c1"
-  },
-  {
-    "path": "cannacon/education.html",
-    "bytes": 9417,
-    "sha256": "c550fab76c18774914c1de0e19f41a3c1bc9c564b6a34c0c556353152d8b97da"
-  },
-  {
-    "path": "cannacon/events.html",
-    "bytes": 13871,
-    "sha256": "d92d4313db3c4a072b4fed98227998f1f8a97383c2553c58fafbc7c0895cfe1b"
-  },
-  {
-    "path": "cannacon/exhibit.html",
-    "bytes": 22518,
-    "sha256": "7934ad585b17512902bbe425f576e2032dd51a52edf735ef8af650c8d8accd64"
-  },
-  {
-    "path": "cannacon/hosted-buyers.html",
-    "bytes": 22257,
-    "sha256": "eac5c2dac075b175972a6c8ce346a95c82efe8ed30f320d8dd59555fddb11346"
-  },
-  {
-    "path": "cannacon/index.html",
-    "bytes": 25772,
-    "sha256": "5bc898bde3cc3f6dd7b7c36ca7a74438af3d7583ed437abcb4df4df7a34ec266"
-  },
-  {
-    "path": "cannacon/news.html",
-    "bytes": 12212,
-    "sha256": "e2faf6f4f415b3bb0491c2797a7604d88ddf3e89a2b7594c93affecd2c9e8319"
-  },
-  {
-    "path": "cannacon/privacy.html",
-    "bytes": 9213,
-    "sha256": "d7c22ab1be5e531727dc30b7e4602d683f4c6456dd5dae32798415901dd5e3b1"
-  },
-  {
-    "path": "cannacon/runtime-data.js",
-    "bytes": 3908,
-    "sha256": "54dcdcee035b52ec9a6a5f1fe4b35b45790e68528ff3fa19d4b561c29d511441"
-  },
-  {
-    "path": "cannacon/schedule.html",
-    "bytes": 11121,
-    "sha256": "5d72a2c3bbc12b7fbf71d7b2a475dcac4297a20eedbc8c4c299de327e20e4f28"
-  },
-  {
-    "path": "cannacon/speak.html",
-    "bytes": 16747,
-    "sha256": "9def96442df62eab8d807b0b3817ffc2ea83ccdd22a0f8f9025b143caf124628"
-  },
-  {
-    "path": "cannacon/speakers.html",
-    "bytes": 8723,
-    "sha256": "8ed530884653af2a7f805a013d4c59618c5709de09b97f2ca0e0218a8b756f2c"
-  },
-  {
-    "path": "cannacon/sponsor.html",
-    "bytes": 17547,
-    "sha256": "98bf4f879be4445ff3f3093cb3090d4635bfa2749bfae1210c42f8aaf396c692"
-  }
-]
+{
+  "generated_at": "2026-09-22",
+  "build_version": "20260922d",
+  "files": [
+    {
+      "path": "LV27/index.html",
+      "bytes": 16446,
+      "sha256": "f453da1579efea598ff491733eb785159b3bc421bc91bed6605c75d6cde70edd"
+    },
+    {
+      "path": "MN27/index.html",
+      "bytes": 17906,
+      "sha256": "658ecf65891fc763ec5627ccb7c7a979a87b2929b7fc10a390d8d21994416922"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5277,
+      "sha256": "f35f0cb78891169a41c69acaf9f55f144f6650b627c0b7fa71ff3c1dfdecfb28"
+    },
+    {
+      "path": "VA27/index.html",
+      "bytes": 17995,
+      "sha256": "79157e870474b59f22c4657e2e720a23f5ad66ec93255bf1d612a2eb13ba96c3"
+    },
+    {
+      "path": "about.html",
+      "bytes": 11136,
+      "sha256": "e97443d96402d97a940b34857bc8df439a594429948f9bcbd6a8a02a7917f1c9"
+    },
+    {
+      "path": "assets/brand/brand-wave.png",
+      "bytes": 10520,
+      "sha256": "9a2f43a18306c12f6d316a099ea399f410fa8ecbe714e81b6362b2f28a22220a"
+    },
+    {
+      "path": "assets/brand/cannacon-hand.png",
+      "bytes": 16582,
+      "sha256": "bb7baa37a5b4377d11a7bf86bb8b73ff646b1d53189ec1839d9230e181072843"
+    },
+    {
+      "path": "assets/brand/cannacon-wordmark.png",
+      "bytes": 51862,
+      "sha256": "bdb83e4e601a23c52ba702f5ab79cce54202383049bb86fbc88d6776b5a64e0c"
+    },
+    {
+      "path": "assets/decks/cannacon-sales-deck.pdf",
+      "bytes": 2128888,
+      "sha256": "5ab7f7fcdf289620c996072223903252b3e1240c59647763f98e75af82ed7cf3"
+    },
+    {
+      "path": "assets/decks/hosted-buyer-guide.pdf",
+      "bytes": 1457716,
+      "sha256": "38d9a968c17535c92370793411a351c54bc53624b12359291328cf297c70638d"
+    },
+    {
+      "path": "assets/decks/las-vegas-sales-deck.pdf",
+      "bytes": 2515584,
+      "sha256": "f278cd840bae669909d9dfa59de2bf68a2f94aba8c884782c5e15a4eea445990"
+    },
+    {
+      "path": "assets/images/cannacon-sales-deck-cover.webp",
+      "bytes": 49518,
+      "sha256": "5873f8f225c900cafb299def3928ac4ea6ddcbdd11dec1f47a38b08d96a807d4"
+    },
+    {
+      "path": "assets/images/hosted-buyer-guide-cover.webp",
+      "bytes": 59352,
+      "sha256": "d1e2f14b466f24544391da409c61e0aeda9b997b8629273b208975717a89e2ad"
+    },
+    {
+      "path": "assets/images/las-vegas-sales-deck-cover.webp",
+      "bytes": 57830,
+      "sha256": "7da08a6ef06f9ea14602886782099d81fa03512b8217157ba3227855192100d5"
+    },
+    {
+      "path": "attend.html",
+      "bytes": 14267,
+      "sha256": "17ecdea0f6d6bf6480487bdb05f30918c6a3fdd53404bb622876c26ad576a8ba"
+    },
+    {
+      "path": "build.mjs",
+      "bytes": 38829,
+      "sha256": "61875292557438b98961207d3c60b95fd47fb3279db1932db6724d2dc22602ff"
+    },
+    {
+      "path": "cannacon.css",
+      "bytes": 38860,
+      "sha256": "a1b5a7eb1fb3fd9f8831b0ddebbe7f1f99887a0319a3e17201179df7ee89e482"
+    },
+    {
+      "path": "cannacon.js",
+      "bytes": 11342,
+      "sha256": "2fdd92859941a57a6a26d61619b58c5fa1f3b7b45efcbf69631271b8ddebc230"
+    },
+    {
+      "path": "contact.html",
+      "bytes": 10626,
+      "sha256": "14145383f4b72904529f88f0ae492962323d7d646db3e2e1c7781de7b3e674d6"
+    },
+    {
+      "path": "content/site.json",
+      "bytes": 11113,
+      "sha256": "0e0723d1834937d397c85fb1ff4c3da2f57860c28361738fb4659888e505dc71"
+    },
+    {
+      "path": "decks.html",
+      "bytes": 9061,
+      "sha256": "e3801fa5028334b81be3b3568e98b29e58668dac5902e92b7d6f4cbdf44dc558"
+    },
+    {
+      "path": "docs/FORM_SIMPLIFICATION.md",
+      "bytes": 3924,
+      "sha256": "20f6282cab167e9f6d74d4d98ab1bac8e3b02741896bc7d26c7ccbeac830c307"
+    },
+    {
+      "path": "docs/LIVE_TEST_CHECKLIST.md",
+      "bytes": 5173,
+      "sha256": "d4dbfc17481fdd963d22599e82eee572a6b57d546cf7403defebb6c6f0bf6062"
+    },
+    {
+      "path": "docs/OPEN_DECISIONS.md",
+      "bytes": 3304,
+      "sha256": "cf0033b7613b2bab25d10c1f592e00986cc8457fa68665b444317d2eb2d39bdd"
+    },
+    {
+      "path": "docs/QA_RESULTS.json",
+      "bytes": 4351,
+      "sha256": "f0c231039d662268702583208e4dac81505d0dcc584d1a2c2131c8babfd6653b"
+    },
+    {
+      "path": "docs/QA_RESULTS.md",
+      "bytes": 1776,
+      "sha256": "5cff40cfa7eb0bb1aea25d8b33c0804beb9f47cfc59571da5c4e5925837bb0d9"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 3648,
+      "sha256": "0510adb9408ccc1313d5417691ea3417a9cb7a0b81f3cf1bc90260f44165e55f"
+    },
+    {
+      "path": "docs/UX_AUDIT.md",
+      "bytes": 10626,
+      "sha256": "3e9b184312ff1460f12ba105d5780d143d8eb37364cb7da1a81e661968d20b69"
+    },
+    {
+      "path": "docs/UX_CONVERSION_PATHS.md",
+      "bytes": 3355,
+      "sha256": "348612371a18c48d470948e37ba29912a9a5ccd52d369da1fbb88360de2de511"
+    },
+    {
+      "path": "docs/qa/exhibitor-form.png",
+      "bytes": 54452,
+      "sha256": "d7e1b35001a2c820c7cb7f0a13a08190001522162830f46c5561b2359f333e35"
+    },
+    {
+      "path": "docs/qa/homepage-desktop.png",
+      "bytes": 62287,
+      "sha256": "02c89751188bcc84d8c427a50ffc24d569f2b6d529b0a07362aeaf811ab3855f"
+    },
+    {
+      "path": "docs/qa/homepage-mobile.png",
+      "bytes": 38635,
+      "sha256": "c70f7844029dfbb668ec1e556736d29709f843d2f3ba02154ae32646afdebd01"
+    },
+    {
+      "path": "education.html",
+      "bytes": 8516,
+      "sha256": "427669ce315d20999df106f88b9797c113dc109761031a7295191b732431071b"
+    },
+    {
+      "path": "events.html",
+      "bytes": 11476,
+      "sha256": "224948cfda61f1e80c76d0300b7034dced5d069ec52900d568c2d43c5ede779f"
+    },
+    {
+      "path": "exhibit.html",
+      "bytes": 16177,
+      "sha256": "bb92ea03943a8a309f2839fce8349950e464df77fcc10a62d9a9390574d25031"
+    },
+    {
+      "path": "hosted-buyers.html",
+      "bytes": 13113,
+      "sha256": "bf11000df231078defc988cd603b6867c31408c057bf80fe2497fb6afec88092"
+    },
+    {
+      "path": "index.html",
+      "bytes": 22720,
+      "sha256": "23043ea9fe020918c52c2ef09ed718dafefa0a88f0e7816f4ae8b49ed26a52b6"
+    },
+    {
+      "path": "news.html",
+      "bytes": 11401,
+      "sha256": "ff661210f329093fab4aed3d479250f9d4d7bc209ded8f2d4cdaa5d9862f8a42"
+    },
+    {
+      "path": "privacy.html",
+      "bytes": 7905,
+      "sha256": "adae9a65152e6d5b87131b8e325bd136011f74cbfc944062906c3d38266d5c2f"
+    },
+    {
+      "path": "runtime-data.js",
+      "bytes": 1873,
+      "sha256": "0e9a988e9a84315f978be541af007aee426b6482c902683436f6a8f5d9637089"
+    },
+    {
+      "path": "schedule.html",
+      "bytes": 10133,
+      "sha256": "28647bd3f823b9919713eea03e408dacc35f3ab764403fff35d454458ca3b263"
+    },
+    {
+      "path": "speak.html",
+      "bytes": 10640,
+      "sha256": "fafe510b620b0090c6e70a8eb2a68242e9e2e508764de01fc6245aaf901f4bec"
+    },
+    {
+      "path": "speakers.html",
+      "bytes": 8860,
+      "sha256": "650a6284bc97fb03906e9e14f9ea0c61396c3bd388dcef09bf6a40cf25b8790a"
+    },
+    {
+      "path": "sponsor.html",
+      "bytes": 11441,
+      "sha256": "0ef6cd64f7b1d9f48c7ad6d3ed1ac952a8222c487390393bd75e0080d7234315"
+    }
+  ]
+}
