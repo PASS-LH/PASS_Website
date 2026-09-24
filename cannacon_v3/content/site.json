@@ -1,0 +1,181 @@
+{
+  "brand": {
+    "name": "CannaCon",
+    "tagline": "Where Cannabis Culture, Commerce, and Community Come Together",
+    "rallyingLine": "If you're in Cannabis, you're at CannaCon.",
+    "contactEmail": "info@cannacon.org",
+    "salesEmail": "sales@cannacon.org"
+  },
+  "productionBaseUrl": "https://cannacon.org",
+  "ageRememberDays": 180,
+  "privacyRememberDays": 180,
+  "version": "20260924-v3",
+  "socials": {
+    "facebook": "https://www.facebook.com/CannaCon/",
+    "instagram": "https://www.instagram.com/cannacon2.0/",
+    "linkedin": "https://www.linkedin.com/company/cannacon/",
+    "youtube": "https://www.youtube.com/@cannacon5021"
+  },
+  "jotforms": {
+    "sales": "https://form.jotform.com/262664752724060",
+    "registration": "https://form.jotform.com/262665252358059",
+    "speaker": "https://form.jotform.com/262643030544046",
+    "buyer": "https://form.jotform.com/262642521146048"
+  },
+  "media": {
+    "heroImage": "https://cannacon.org/wp-content/uploads/DSC2681-1-1200x800-2.jpg",
+    "heroVideo": "https://cannacon.org/wp-content/uploads/EXHIBITOR-MONTAGE-1.mp4",
+    "youtubeEmbed": "https://www.youtube-nocookie.com/embed/UnAv5nVQzks",
+    "showFloor": "https://cannacon.org/wp-content/uploads/DSC2681-1-1200x800-2.jpg",
+    "conversations": "https://cannacon.org/wp-content/uploads/CannaCon2019_MSP_013119-202.jpg",
+    "community": "https://cannacon.org/wp-content/uploads/DSC2699-1200x800-1.jpg"
+  },
+  "events": [
+    {
+      "code": "VA27",
+      "name": "CannaCon Virginia Beach",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "region": "East Coast",
+      "datesLabel": "March 18–19, 2027",
+      "preDate": "2027-03-17",
+      "preLabel": "March 17",
+      "venue": "Virginia Beach Convention Center",
+      "address": "1000 19th St, Virginia Beach, VA 23451",
+      "airport": "Norfolk International Airport (ORF)",
+      "intro": "Culture, commerce and a new generation of connections on the East Coast.",
+      "days": [
+        {"date":"2027-03-18","label":"Thursday, March 18","hours":"9:00 AM – 6:00 PM"},
+        {"date":"2027-03-19","label":"Friday, March 19","hours":"10:00 AM – 3:00 PM"}
+      ],
+      "courseDates": ["2027-03-17","2027-03-18","2027-03-19"],
+      "floorPlan": "https://homebase.map-dynamics.com/cannaconvb2027/floorplan",
+      "venueInfoUrl": "https://www.visitvirginiabeach.com/meetings/convention-center/",
+      "parkingUrl": "https://www.visitvirginiabeach.com/meetings/convention-center/",
+      "hotelUrl": null,
+      "agendaUrl": "schedule.html#va27",
+      "image": "conversations",
+      "ticketsEnabled": true
+    },
+    {
+      "code": "LV27",
+      "name": "CannaCon Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "region": "National gathering",
+      "datesLabel": "May 2027",
+      "preDate": null,
+      "preLabel": null,
+      "venue": "Las Vegas Convention Center",
+      "address": null,
+      "airport": "Harry Reid International Airport (LAS)",
+      "intro": "The full cannabis and hemp ecosystem, with the Infused Pavilion at its heart.",
+      "days": [],
+      "courseDates": [],
+      "floorPlan": "https://homebase.map-dynamics.com/infusedlv2027/floorplan",
+      "venueInfoUrl": "https://www.vegasmeansbusiness.com/meetings-and-events/convention-centers/las-vegas-convention-center/",
+      "parkingUrl": "https://www.vegasmeansbusiness.com/meetings-and-events/convention-centers/las-vegas-convention-center/",
+      "hotelUrl": null,
+      "agendaUrl": "schedule.html#lv27",
+      "image": "showFloor",
+      "ticketsEnabled": false
+    },
+    {
+      "code": "MN27",
+      "name": "CannaCon St. Paul",
+      "city": "St. Paul",
+      "state": "MN",
+      "region": "Midwest",
+      "datesLabel": "July 16–17, 2027",
+      "preDate": "2027-07-15",
+      "preLabel": "July 15",
+      "venue": "Saint Paul RiverCentre",
+      "address": "175 West Kellogg Boulevard, Saint Paul, MN 55102",
+      "airport": "Minneapolis–Saint Paul International Airport (MSP)",
+      "intro": "The cannabis and hemp community meets the businesses moving it forward.",
+      "days": [
+        {"date":"2027-07-16","label":"Friday, July 16","hours":"9:00 AM – 6:00 PM"},
+        {"date":"2027-07-17","label":"Saturday, July 17","hours":"10:00 AM – 3:00 PM"}
+      ],
+      "courseDates": ["2027-07-15","2027-07-16","2027-07-17"],
+      "floorPlan": "https://homebase.map-dynamics.com/infusedstpaul2027/floorplan",
+      "venueInfoUrl": "https://www.rivercentre.org/attend/guest-services-guide",
+      "parkingUrl": "https://www.rivercentre.org/exhibit/parking-transportation",
+      "hotelUrl": null,
+      "agendaUrl": "schedule.html#mn27",
+      "image": "community",
+      "ticketsEnabled": true
+    }
+  ],
+  "pavilions": [
+    {
+      "title": "Infused Pavilion",
+      "eyebrow": "Products. Possibility.",
+      "description": "From farming and formulation to packaging, distribution and retail. Discover the people and products across the infused ecosystem.",
+      "detail": "Ingredients, equipment, co-manufacturing, brands and buyer conversations.",
+      "image": "showFloor"
+    },
+    {
+      "title": "Culture Pavilion",
+      "eyebrow": "The people. The culture.",
+      "description": "Consumer-facing products, glass, art, creators and community. A place for the experiences that make cannabis culture its own.",
+      "detail": "Live culture programming and show-floor experiences will be announced as schedules are confirmed.",
+      "image": "community"
+    },
+    {
+      "title": "Cannabis Commerce Pavilion",
+      "eyebrow": "Business gets done here.",
+      "description": "The CannaCon B2B floor, expanded. Meet operators, growers, suppliers, technology companies and the services behind the industry.",
+      "detail": "Cultivation, manufacturing, retail, capital, technology and professional services.",
+      "image": "conversations"
+    }
+  ],
+  "history": {
+    "heading": "A new chapter. A team that knows the floor.",
+    "text": "CannaCon brings together the people, products and ideas shaping cannabis and hemp. The team behind it combines decades of trade-show experience with practical education, buyer relationships and community connections.",
+    "metrics": [
+      {"value":"30+","label":"Years of large-scale trade-show experience"},
+      {"value":"13","label":"Years in cannabis and regulated industries"},
+      {"value":"50+","label":"B2B cannabis events across U.S. markets"}
+    ]
+  },
+  "articles": [
+    {
+      "title": "The Ultimate Terpene Chart: 20 Cannabis Terpenes and Their Effects",
+      "url": "https://cannacon.org/cannabis-terpenes-explained/",
+      "date": "2025-07-30",
+      "image": "https://cannacon.org/wp-content/uploads/cannabis-terpenes-chart-scaled.jpg",
+      "category": "Plant science",
+      "excerpt": "Explore the CannaCon guide to cannabis terpenes."
+    },
+    {
+      "title": "Marijuana Pipes 101: History, Types, Design and More",
+      "url": "https://cannacon.org/marijuana-pipes-101/",
+      "date": "2024-11-14",
+      "image": "https://cannacon.org/wp-content/uploads/marijuana-pipes.jpg",
+      "category": "Culture",
+      "excerpt": "A look at the history, design and variety of cannabis pipes."
+    },
+    {
+      "title": "Flushing Cannabis Before Harvest: What the Science Actually Says",
+      "url": "https://cannacon.org/flushing-cannabis/",
+      "date": "2026-02-13",
+      "image": "https://cannacon.org/wp-content/uploads/flushing-cannabis-plants.jpg",
+      "category": "Cultivation",
+      "excerpt": "CannaCon examines a much-discussed cultivation practice."
+    },
+    {
+      "title": "The Ultimate Guide to Cannabis Tourism and Weed Vacations",
+      "url": "https://cannacon.org/cannabis-tourism/",
+      "date": "2025-07-21",
+      "image": "https://cannacon.org/wp-content/uploads/cannabis-tourism-destinations.jpg",
+      "category": "Community",
+      "excerpt": "Explore CannaCon's existing travel and culture editorial."
+    }
+  ],
+  "decks": [
+    {"title":"CannaCon exhibitor opportunities","label":"CannaCon sales deck","file":"assets/decks/cannacon-sales-deck.pdf","cover":"assets/images/cannacon-sales-deck-cover.webp","note":"CannaCon exhibitor opportunities, pavilions and the 2027 event portfolio."},
+    {"title":"Las Vegas: from roots to retail","label":"Las Vegas sales deck","file":"assets/decks/las-vegas-sales-deck.pdf","cover":"assets/images/las-vegas-sales-deck-cover.webp","note":"Las Vegas opportunity overview for CannaCon and the Infused Pavilion."},
+    {"title":"Hosted buyers & one-to-one meetings","label":"Hosted buyer guide","file":"assets/decks/hosted-buyer-guide.pdf","cover":"assets/images/hosted-buyer-guide-cover.webp","note":"Hosted Buyer overview, buyer profiles and one-to-one meeting program."}
+  ]
+}

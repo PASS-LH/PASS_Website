@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /sales
+Sitemap: https://cannacon.org/sitemap.xml
