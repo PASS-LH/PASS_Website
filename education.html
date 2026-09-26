@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Business Finance & Strategy Education | Play At Scale Services</title>
-  <meta name="description" content="Practical, instructor-led business finance and strategy education for owners and operators, including live CannaCon sessions and professional certificate pathways.">
+  <title>Business Finance & Strategy Education | Play At Scale</title>
+  <meta name="description" content="Practical finance education for business owners and operators. Learn to interpret performance, allocate resources and evaluate investments through live applied training from Play At Scale.">
   <meta name="theme-color" content="#20204f">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://www.playatscale.com/education.html">
   <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="512x512" href="assets/brand/favicon-512.png">
   <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
-  <meta property="og:title" content="Business Finance & Strategy Education | Play At Scale Services">
-  <meta property="og:description" content="Practical, instructor-led business finance and strategy education for owners and operators, including live CannaCon sessions and professional certificate pathways.">
+
+  <meta property="og:title" content="Business Finance & Strategy Education | Play At Scale">
+  <meta property="og:description" content="Applied financial decision training for owners, operators and managers. Read the business, allocate scarce resources and evaluate capital decisions.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.playatscale.com/education.html">
   <meta property="og:image" content="https://www.playatscale.com/assets/brand/play-at-scale-social.jpg">
@@ -21,17 +22,37 @@
   <meta property="og:image:alt" content="Play At Scale - The Benefits of Scale, Regardless of Size">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://www.playatscale.com/assets/brand/play-at-scale-social.jpg">
+
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="education.css">
+
   <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"Course",
-  "name":"Business Finance & Strategy Certificate Program",
-  "description":"Instructor-led practical finance and strategy education for business owners and operators.",
-  "provider":{"@type":"Organization","name":"Play At Scale Services","sameAs":"https://www.playatscale.com/"},
-  "hasCourseInstance":{"@type":"CourseInstance","courseMode":"onsite","location":{"@type":"Place","name":"Upcoming CannaCon events"}}
-}
-</script>
+  {
+    "@context":"https://schema.org",
+    "@type":"Course",
+    "name":"Business Finance & Strategy for Cannabis Operators",
+    "description":"Applied financial decision training for owners, operators, managers and advisors. The program covers business finance foundations, financial management and analytics, and strategic finance and capital allocation.",
+    "provider":{"@type":"Organization","name":"Play At Scale Services","url":"https://www.playatscale.com/"},
+    "url":"https://www.playatscale.com/education.html",
+    "educationalLevel":"Professional continuing education",
+    "teaches":["Cash flow management","Unit economics","Resource allocation","Financial analytics","Scenario analysis","Capital allocation","Investment evaluation"]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Who is the program for?","acceptedAnswer":{"@type":"Answer","text":"Owners, operators, managers, advisors and other decision-makers who need to use financial information to run a business. Formal accounting training is not required."}},
+      {"@type":"Question","name":"Can I take one level without the others?","acceptedAnswer":{"@type":"Answer","text":"Yes. Each applied level can stand alone. Higher levels assume more financial fluency and may include short readiness work for direct-entry participants."}},
+      {"@type":"Question","name":"How long is each applied level?","acceptedAnswer":{"@type":"Answer","text":"Each applied level is designed as a four-hour live instructor-led session. Levels 2 and 3 may include short readiness work for participants entering directly."}},
+      {"@type":"Question","name":"What is required for the Play At Scale professional certificate?","acceptedAnswer":{"@type":"Answer","text":"The professional certificate pathway requires completion of the required competency areas plus an integrated take-home capstone and a 15-minute review presentation in which the participant defends the work."}},
+      {"@type":"Question","name":"Is AI allowed in the capstone?","acceptedAnswer":{"@type":"Answer","text":"Yes. AI use is encouraged as an analytical partner. Participants remain accountable for assumptions, calculations, validation and recommendations, include substantive prompts used, and defend the analysis during the review presentation."}},
+      {"@type":"Question","name":"Is the certificate accredited?","acceptedAnswer":{"@type":"Answer","text":"No. The Play At Scale professional certificate is a private professional certificate and is not an academic degree, accredited academic credential, professional license, governmental certification or independent personnel certification."}}
+    ]
+  }
+  </script>
 </head>
 <body data-page="education">
 <header class="site-header">
@@ -46,67 +67,278 @@
       <a href="resources.html" data-nav="resources">Resources</a>
       <a href="about.html" data-nav="about">About</a>
       <a href="contact.html" data-nav="contact">Contact</a>
-      <a class="btn primary" href="https://meetings-na2.hubspot.com/lucas-hobbs" data-site-link="scheduling" target="_blank" rel="noopener">Schedule a Conversation</a>
+      <a class="btn primary" href="https://meetings-na2.hubspot.com/lucas-hobbs" data-site-link="scheduling" data-track="schedule_header" target="_blank" rel="noopener">Schedule a Conversation</a>
     </nav>
   </div>
 </header>
+
 <main>
-<section class="page-hero navy">
-  <div class="container"><span class="eyebrow">Business Education</span><h1>Practical finance education for people running businesses.</h1><p class="lead">Instructor-led finance and strategy education built around usable frameworks, real decisions, and immediate application.</p></div>
-</section>
+  <section class="education-hero" id="top">
+    <div class="container education-hero-grid">
+      <div class="education-hero-copy">
+        <span class="eyebrow">Business Education</span>
+        <h1>Practical finance education for people who run businesses.</h1>
+        <p class="hero-lead">Learn to interpret performance, allocate resources and evaluate investments without turning finance into an accounting lecture.</p>
+        <p class="hero-support">Live, instructor-led working sessions built around the financial decisions owners and operators actually have to make.</p>
+        <div class="btn-row education-hero-actions">
+          <a class="btn primary" href="#current-delivery" data-track="hero_current_courses">View current CannaCon courses</a>
+          <a class="btn outline" href="#curriculum" data-track="hero_curriculum">Explore the curriculum</a>
+          <a class="btn text" href="contact.html" data-track="hero_team_training">Discuss team or online training</a>
+        </div>
+      </div>
+      <aside class="decision-panel" aria-label="Program decision examples">
+        <div class="decision-panel-label">The number is not the decision.</div>
+        <div class="decision-signal">
+          <strong>$250K PROFIT</strong>
+          <span>does not tell you whether cash increased.</span>
+        </div>
+        <div class="decision-signal">
+          <strong>42% MARGIN</strong>
+          <span>does not tell you where constrained capacity should go.</span>
+        </div>
+        <div class="decision-signal">
+          <strong>$180K NPV</strong>
+          <span>does not tell you whether the company can afford the investment.</span>
+        </div>
+        <p>The course teaches the question behind the number.</p>
+      </aside>
+    </div>
+    <div class="container education-fact-strip" aria-label="Program facts">
+      <div><strong>LIVE</strong><span>Instructor-led</span></div>
+      <div><strong>3</strong><span>Applied levels</span></div>
+      <div><strong>4 HOURS</strong><span>Per applied level</span></div>
+      <div><strong>$250</strong><span>Per applied level</span></div>
+      <div><strong>$500</strong><span>Full live course bundle</span></div>
+    </div>
+  </section>
 
-<section class="section">
-  <div class="container">
-    <div class="program-intro">
-      <div><span class="eyebrow">Current Delivery</span><h2>Business Finance & Strategy Certificate Program</h2><p class="program-note">The current on-site program is delivered at upcoming CannaCon events. It is designed as a one-day applied primer when taken as a bundle, while each level can also stand on its own and be completed at a different offering date.</p><div class="btn-row"><a class="btn primary" href="https://cannacon.org/" data-site-link="cannaconProgram">CannaCon Program Info</a><a class="btn outline" href="resources.html#webcasts">Online / Webcast Options</a></div></div>
-      <div class="program-logos"><img src="assets/brand/play-at-scale-logo.png" alt="Play At Scale"><img src="assets/brand/cannacon-logo.png" alt="CannaCon"></div>
+  <section class="section compact education-intro">
+    <div class="container intro-grid">
+      <div>
+        <span class="eyebrow">What participants learn to decide</span>
+        <h2>Finance matters when it changes the decision.</h2>
+      </div>
+      <p class="lead">The program starts with business questions, then introduces the finance needed to answer them. The goal is not accounting vocabulary for its own sake. It is better financial stewardship.</p>
     </div>
 
-    <div class="offer-grid">
-      <article class="offer-card"><span class="offer-meta">Open Lecture</span><h3>Finance & Strategy Overview</h3><span class="price">$50</span><p>Approximately one hour in a larger lecture format, designed for attendees who want the core concepts without the full applied working session.</p><p><strong>Format:</strong> roughly 300-person lecture capacity.</p><a class="btn outline" data-commerce="lecture" href="education.html">Program / Registration Info</a></article>
-      <article class="offer-card featured"><span class="offer-meta">Full-Day Bundle</span><h3>Lecture + All Three Applied Levels</h3><span class="price">$500</span><p>Complete the full on-site primer in one day and receive the Play At Scale professional certificate upon satisfying the applicable completion requirements.</p><p><strong>Applied sessions:</strong> maximum approximately 50 participants each.</p><a class="btn" data-commerce="bundle" href="education.html">Program / Registration Info</a></article>
+    <div class="container problem-grid">
+      <article class="problem-card">
+        <span class="problem-label">Cash</span>
+        <h3>Revenue is up. Why is cash down?</h3>
+        <p>Connect profit, inventory, collections, payroll, debt, capital spending and cash timing.</p>
+        <strong class="problem-outcome">Build a forward view of where cash is actually going.</strong>
+      </article>
+      <article class="problem-card">
+        <span class="problem-label">Operations</span>
+        <h3>Which product should get the next $50,000?</h3>
+        <p>Use contribution, constraints, demand headroom, sell-through and opportunity cost to allocate scarce resources.</p>
+        <strong class="problem-outcome">Put cash, labor, inventory or capacity where it creates the most value.</strong>
+      </article>
+      <article class="problem-card">
+        <span class="problem-label">Capital</span>
+        <h3>The project has a positive return. Should we fund it?</h3>
+        <p>Build project cash flows, test NPV and IRR, stress assumptions, check liquidity and compare competing uses of capital.</p>
+        <strong class="problem-outcome">Determine whether the project is actually financeable and worth funding.</strong>
+      </article>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section soft">
-  <div class="container"><span class="eyebrow">Applied Sessions</span><h2>Three standalone levels. One connected financial toolkit.</h2>
-    <div class="level-table">
-      <article class="level-row"><div class="level-num">Level 1</div><div><h3>Business Finance Foundations</h3><p>Revenue, profit, cash, cash-flow forecasting, price for profit, financial fundamentals, and understanding what happens next.</p><a class="btn text" data-commerce="level1" href="education.html">Program / Registration Info</a></div><div class="duration">2-2.5 hours</div><div class="level-price">$250</div></article>
-      <article class="level-row"><div class="level-num">Level 2</div><div><h3>Financial Management & Analytics</h3><p>KPIs, dashboards, financial analytics, growth economics, business finance systems, and turning data into decisions.</p><a class="btn text" data-commerce="level2" href="education.html">Program / Registration Info</a></div><div class="duration">2-2.5 hours</div><div class="level-price">$250</div></article>
-      <article class="level-row"><div class="level-num">Level 3</div><div><h3>Capital & Strategic Finance</h3><p>Borrowing, capital structure, investability, business cases, scenario planning, capital allocation, and investment evaluation.</p><a class="btn text" data-commerce="level3" href="education.html">Program / Registration Info</a></div><div class="duration">2-3 hours</div><div class="level-price">$250</div></article>
+  <section class="section soft" id="current-delivery">
+    <div class="container section-heading-row">
+      <div>
+        <span class="eyebrow">Business Finance &amp; Strategy for Cannabis Operators</span>
+        <h2>Learn live at CannaCon.</h2>
+        <p class="lead">Which option is right for you? Get the overview, take the level that solves the problem in front of you, or build the complete toolkit across scheduled sessions.</p>
+      </div>
+      <div class="co-brand-mini" aria-label="Play At Scale and CannaCon">
+        <img src="assets/brand/play-at-scale-logo.png" alt="Play At Scale">
+        <span>+</span>
+        <img src="assets/brand/cannacon-logo.png" alt="CannaCon">
+      </div>
     </div>
-  </div>
-</section>
 
-<section class="section">
-  <div class="container"><span class="eyebrow">Take-Home Tools</span><h2>Frameworks designed to survive the classroom.</h2><p class="lead">These are the core practical tools offered across the program. Participant-ready downloads will be linked here as they are released.</p>
-    <div class="framework-grid">
-      <article class="framework" data-framework-key="Cash-Flow Forecasting Model"><h3>Cash-Flow Forecasting Model</h3><p>Project cash movement and test operating assumptions.</p><a class="download-link" href="#">Download</a></article>
-      <article class="framework" data-framework-key="Unit Economics & Pricing Calculator"><h3>Unit Economics & Pricing Calculator</h3><p>Test margin, pricing, contribution economics, and sensitivity.</p><a class="download-link" href="#">Download</a></article>
-      <article class="framework" data-framework-key="KPI Dashboard Template"><h3>KPI Dashboard Template</h3><p>Connect operating measures to business performance.</p><a class="download-link" href="#">Download</a></article>
-      <article class="framework" data-framework-key="Scenario Planning Framework"><h3>Scenario Planning Framework</h3><p>Compare alternative operating and financial paths.</p><a class="download-link" href="#">Download</a></article>
-      <article class="framework" data-framework-key="Lender & Investor Readiness Checklist"><h3>Lender & Investor Readiness Checklist</h3><p>Organize the information external capital providers commonly expect.</p><a class="download-link" href="#">Download</a></article>
-      <article class="framework" data-framework-key="Investment Evaluation Toolkit"><h3>Investment Evaluation Toolkit</h3><p>Structure business cases, returns, risk, and capital allocation.</p><a class="download-link" href="#">Download</a></article>
+    <div class="container offer-choice-grid" data-education-offers></div>
+    <noscript>
+      <div class="container noscript-note">JavaScript is required to display current course pricing and registration links. Current public pricing: lecture $50, applied levels $250 each, full live course bundle $500.</div>
+    </noscript>
+    <div class="container offer-note">
+      <strong>Full pathway timing:</strong> the three applied levels are four-hour live sessions. The full program is completed across published course dates, not as a one-day course. The professional certificate pathway additionally requires the integrated applied capstone and 15-minute review presentation.
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section warm">
-  <div class="container"><span class="eyebrow">Program Rules</span><h2>Flexible by design.</h2><div class="rules-grid"><ul class="rules-list"><li>Each applied level can stand alone.</li><li>Levels do not need to be taken sequentially.</li><li>Levels may be completed at different event dates.</li><li>A test-out pathway may be available for foundational requirements when pursuing the full certificate.</li></ul><ul class="rules-list"><li>The professional certificate is issued only by Play At Scale.</li><li>It is not an academic degree, accredited academic credential, professional license, or governmental certification.</li><li>CannaCon exhibitor discounts may be available through CannaCon sales and are not administered by Play At Scale.</li><li>Custom online education may be considered by inquiry; private in-person programs are not currently offered.</li></ul></div></div>
-</section>
+  <section class="section" id="curriculum">
+    <div class="container section-heading-row">
+      <div>
+        <span class="eyebrow">Three-level curriculum</span>
+        <h2>One connected management-finance toolkit.</h2>
+        <p class="lead">Each level can stand alone. Together they move from understanding the business, to managing operating economics, to making capital decisions.</p>
+      </div>
+      <a class="btn outline" href="#certificate" data-track="curriculum_certificate">See the certificate pathway</a>
+    </div>
+    <div class="container level-card-grid" data-education-levels></div>
+  </section>
 
-<section class="section">
-  <div class="container instructor-panel">
-    <div class="headshot-frame"><img loading="lazy" src="assets/people/lucas-headshot.png" alt="Lucas Hobbs, Play At Scale instructor"></div>
-    <div class="bio"><span class="eyebrow">Instructor</span><h2>Complex finance, translated for the people who have to use it.</h2><p>Lucas Hobbs has more than 13 years of experience teaching finance to non-technical audiences alongside senior finance, strategy, analytics, and transformation roles.</p><ul class="credential-list"><li>Developed and administered Finance for Non-Technical Audiences at Boeing.</li><li>Received the 2014 Ed Wells Program - Professional Instructor Excellence Award, selected from an instructor pool of approximately 300.</li><li>Course content was later adopted by the University of Washington and administered for five years as part of Boeing / UW professional development certificate programming.</li><li>Teaching approach emphasizes practical application, decision structure, and meeting participants at their existing level of financial fluency.</li></ul><a class="btn text" href="about.html">Full Professional Background</a></div>
-  </div>
-</section>
+  <section class="section soft" id="tools">
+    <div class="container">
+      <span class="eyebrow">Take the tools back to work</span>
+      <h2>Models and frameworks designed to survive the classroom.</h2>
+      <p class="lead">The tools mirror the decisions taught in class. Public download buttons only appear when a participant-ready asset is actually available.</p>
 
-<section class="section soft dynamic-section" data-event-gallery-section><div class="container"><span class="eyebrow">In the Room</span><h2>Applied learning in practice.</h2><p class="lead">Selected images from Play At Scale classes, lectures, and event sessions.</p><div class="media-gallery" data-event-gallery></div></div></section>
+      <div class="tool-grid">
+        <article class="tool-card">
+          <div class="tool-preview cash-preview" aria-hidden="true"><span>BEGIN CASH</span><b>$120K</b><span>RECEIPTS</span><b>+$85K</b><span>USES</span><b>-$96K</b></div>
+          <h3>Cash-Flow Forecasting Model</h3><p>See when cash tightens before the bank balance forces the conversation.</p><span class="resource-status">Included with applicable course</span>
+        </article>
+        <article class="tool-card">
+          <div class="tool-preview unit-preview" aria-hidden="true"><span>PRICE</span><b>$40</b><span>DIRECT COST</span><b>$23</b><span>CONTRIBUTION</span><b>$17</b></div>
+          <h3>Unit Economics Calculator</h3><p>Separate price, direct cost, contribution dollars and margin percentage.</p><span class="resource-status">Included with applicable course</span>
+        </article>
+        <article class="tool-card">
+          <div class="tool-preview allocation-preview" aria-hidden="true"><div style="width:76%"></div><div style="width:54%"></div><div style="width:31%"></div></div>
+          <h3>Constraint & Allocation Planner</h3><p>Compare scarce-resource economics with demand headroom and operating requirements.</p><span class="resource-status">Included with applicable course</span>
+        </article>
+        <article class="tool-card">
+          <div class="tool-preview kpi-preview" aria-hidden="true"><span>KPI</span><span>THRESHOLD</span><span>ACTION</span><b>Sell-through</b><b>&lt;70%</b><b>Review buy</b></div>
+          <h3>KPI & Variance Control Board</h3><p>Connect each metric to an owner, threshold and prepared management action.</p><span class="resource-status">Included with applicable course</span>
+        </article>
+        <article class="tool-card">
+          <div class="tool-preview scenario-preview" aria-hidden="true"><span>BASE</span><b>$210K</b><span>DOWNSIDE</span><b>$72K</b><span>TRIGGER</span><b>ACT</b></div>
+          <h3>Operating Scenario Lab</h3><p>Change the assumptions that matter and identify when the earlier decision should change.</p><span class="resource-status">Included with applicable course</span>
+        </article>
+        <article class="tool-card">
+          <div class="tool-preview capital-preview" aria-hidden="true"><span>NPV</span><b>$184K</b><span>IRR</span><b>24%</b><span>LIQUIDITY</span><b>CHECK</b></div>
+          <h3>Capital Allocation & Capstone Model</h3><p>Build project cash flows, test value and liquidity, compare investments, and document the final recommendation.</p><span class="resource-status">Certificate pathway resource</span>
+        </article>
+      </div>
+    </div>
+  </section>
 
-<section class="cta-band"><div class="container cta-grid"><div><h2>Prefer live online or on-demand?</h2><p>Live online sessions, secure registration and payment, participant downloads, and on-demand content can be added as the program expands.</p></div><a class="btn" href="resources.html">View Resources & Online Options</a></div></section>
+  <section class="section" id="instructor">
+    <div class="container instructor-panel education-instructor">
+      <div class="headshot-frame"><img loading="lazy" src="assets/people/lucas-headshot.png" alt="Lucas Hobbs, Play At Scale instructor"></div>
+      <div class="bio">
+        <span class="eyebrow">Instructor</span>
+        <h2>Finance taught by someone who has had to use it.</h2>
+        <p>Lucas Hobbs combines senior finance, strategy, analytics and transformation experience with more than 13 years teaching finance to non-technical audiences.</p>
+        <ul class="credential-list">
+          <li>Developed and administered Finance for Non-Technical Audiences at Boeing.</li>
+          <li>Received the 2014 Ed Wells Program Professional Instructor Excellence Award.</li>
+          <li>Prior course content was later used within Boeing / University of Washington professional-development programming.</li>
+          <li>Teaching emphasizes practical application, decision structure, and meeting participants at their current level of financial fluency.</li>
+        </ul>
+        <a class="btn text" href="about.html" data-track="instructor_background">Full professional background</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft" id="cases">
+    <div class="container">
+      <span class="eyebrow">Proof of method</span>
+      <h2>Built around businesses that look like the industry.</h2>
+      <p class="lead">The same grower and retail businesses carry through the course so participants spend less time learning a new fictional company and more time learning a new decision.</p>
+      <div class="case-proof-grid">
+        <article class="case-proof-card">
+          <div class="case-proof-top"><span>Grower / Producer</span><strong>Cedar Ridge Cultivation</strong></div>
+          <div class="mini-case-table" aria-label="Illustrative Cedar Ridge workbook excerpt">
+            <div class="mini-row header"><span>Product</span><span>Contribution / unit</span><span>Sell-through</span></div>
+            <div class="mini-row"><span>Product A</span><span>$0.68</span><span>72%</span></div>
+            <div class="mini-row"><span>Product B</span><span>$1.42</span><span>54%</span></div>
+            <div class="mini-row"><span>Product C</span><span>$3.08</span><span>31%</span></div>
+          </div>
+          <p class="illustrative-label">Illustrative course view</p>
+          <ul><li>Which product should receive the next constrained unit?</li><li>Does demand support additional production?</li><li>Does automation justify the capital?</li></ul>
+        </article>
+        <article class="case-proof-card">
+          <div class="case-proof-top"><span>Retail</span><strong>Harbor Street Cannabis</strong></div>
+          <div class="mini-case-table" aria-label="Illustrative Harbor Street workbook excerpt">
+            <div class="mini-row header"><span>Category</span><span>Contribution / inventory $</span><span>Sell-through</span></div>
+            <div class="mini-row"><span>Flower</span><span>$0.72</span><span>62%</span></div>
+            <div class="mini-row"><span>Edibles</span><span>$1.20</span><span>84%</span></div>
+            <div class="mini-row"><span>Pre-rolls</span><span>$0.85</span><span>73%</span></div>
+          </div>
+          <p class="illustrative-label">Illustrative course view</p>
+          <ul><li>Where is there real demand headroom?</li><li>Which KPI should trigger action?</li><li>Can expansion be funded without breaking the cash reserve?</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="learning-model">
+    <div class="container">
+      <span class="eyebrow">How the learning works</span>
+      <h2>Learn it live. Work the case. Use it independently.</h2>
+      <div class="learning-process">
+        <article><span>01</span><h3>Start with the decision</h3><p>Begin with an operating question, not a finance definition.</p></article>
+        <article><span>02</span><h3>Build the mechanics</h3><p>Use clear formulas and guided examples to make the concept usable.</p></article>
+        <article><span>03</span><h3>Apply it to a business</h3><p>Work through grower and retail cases using real management constraints.</p></article>
+        <article><span>04</span><h3>Take the framework home</h3><p>Use reusable models and, for the certificate pathway, prove independent application in the capstone.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section certificate-section" id="certificate">
+    <div class="container certificate-grid">
+      <div>
+        <span class="eyebrow">Professional certificate pathway</span>
+        <h2>Learn it live. Prove you can apply it independently.</h2>
+        <p class="lead">The classroom establishes the concepts and guided practice. The integrated take-home capstone demonstrates that the participant can use the framework when nobody is walking them through the problem.</p>
+        <div class="certificate-steps">
+          <div><strong>1</strong><span>Complete the required competency areas.</span></div>
+          <div><strong>2</strong><span>Complete the integrated applied capstone using supplied data, your own business, or a hybrid.</span></div>
+          <div><strong>3</strong><span>Document substantive AI prompts and explain how outputs were validated, modified or rejected.</span></div>
+          <div><strong>4</strong><span>Defend the analysis in a 15-minute review presentation.</span></div>
+        </div>
+      </div>
+      <aside class="ai-standard">
+        <span class="ai-label">AI standard</span>
+        <h3>AI is allowed. Accountability is not outsourced.</h3>
+        <p>Participants are encouraged to use AI to challenge assumptions, check logic, build scenarios and improve communication. They remain responsible for every assumption, calculation and recommendation.</p>
+        <ul><li>Include substantive prompts used.</li><li>Validate the output.</li><li>Explain what you accepted, changed or rejected.</li><li>Be prepared to defend the work without relying on AI.</li></ul>
+      </aside>
+    </div>
+    <div class="container certificate-disclaimer">The Play At Scale professional certificate is a private professional certificate. It is not an academic degree, accredited academic credential, professional license, governmental certification, or independent personnel certification.</div>
+  </section>
+
+  <section class="section soft" id="formats">
+    <div class="container section-heading-row">
+      <div><span class="eyebrow">Other formats</span><h2>Need this for a team or online audience?</h2><p class="lead">The public program is currently centered on live CannaCon delivery. Team, webcast and future online formats can be discussed where the audience and objective are a fit.</p></div>
+      <div class="btn-row"><a class="btn primary" href="contact.html" data-track="team_inquiry">Discuss team training</a><a class="btn outline" href="resources.html" data-track="resources">View resources</a></div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="container faq-layout">
+      <div><span class="eyebrow">FAQ</span><h2>What to know before you register.</h2></div>
+      <div class="faq-list">
+        <details><summary>Who is this for?</summary><p>Owners, operators, managers, advisors and other decision-makers who need to use financial information to run the business. It is designed for non-accountants as well as financially experienced operators.</p></details>
+        <details><summary>Do I need finance or accounting experience?</summary><p>No formal prerequisite is required. Level 1 establishes the common financial language. Participants entering directly at Levels 2 or 3 may receive short readiness work so the live session can stay focused on the higher-level decisions.</p></details>
+        <details><summary>Can I take one level without the others?</summary><p>Yes. Each applied level can stand alone. The levels are cumulative when taken as a pathway, but direct entry is allowed when the participant has the needed foundation.</p></details>
+        <details><summary>How long is each session?</summary><p>The open overview lecture is approximately one hour. Each applied level is a four-hour live instructor-led session. Levels 2 and 3 may include short readiness work for direct-entry participants.</p></details>
+        <details><summary>What tools are included?</summary><p>Applicable sessions include participant workbooks and financial decision tools such as cash forecasting, unit economics, constrained-resource allocation, KPI/variance, scenarios and capital-allocation models. Public download links appear only when a participant-ready asset is available.</p></details>
+        <details><summary>What is required to earn the Play At Scale professional certificate?</summary><p>The certificate pathway requires the required competency areas plus the integrated applied capstone and a 15-minute review presentation. The capstone may use supplied case data, the participant's own business data, or a hybrid.</p></details>
+        <details><summary>Is the certificate accredited?</summary><p>No. It is a private professional certificate issued by Play At Scale. It is not an academic degree, accredited academic credential, professional license, governmental certification or independent personnel certification.</p></details>
+        <details><summary>Can I use my own business data for the capstone?</summary><p>Yes. Participants may anonymize products, customers and other sensitive details or consistently scale dollar values. The requirement is a coherent, internally consistent model that demonstrates the same competencies as the supplied case.</p></details>
+        <details><summary>Is AI allowed?</summary><p>Yes, and thoughtful use is encouraged. Participants document substantive prompts, remain responsible for validation and judgment, and defend the analysis during the 15-minute review presentation.</p></details>
+        <details><summary>Does course registration include CannaCon admission?</summary><p>CannaCon admission rules are controlled by the applicable event registration. Use the current CannaCon course registration page for the event-specific rule before purchasing.</p></details>
+        <details><summary>Are exhibitor discounts or group registrations available?</summary><p>CannaCon exhibitor discounts may be available through CannaCon sales. For group registration or invoice needs, contact Play At Scale or the applicable event registration team for the current options.</p></details>
+        <details><summary>What is the cancellation or transfer policy?</summary><p>The policy shown by the applicable registration provider at checkout governs the purchase. Review those terms before completing registration.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band education-final-cta">
+    <div class="container cta-grid">
+      <div><h2>Use the numbers to run the business.</h2><p>See current CannaCon offerings, choose the level that fits the decision in front of you, or contact Play At Scale about another delivery format.</p></div>
+      <div class="btn-row"><a class="btn" href="#" data-cannacon-program data-track="final_cannacon">View current CannaCon courses</a><a class="btn ghost" href="contact.html" data-track="final_contact">Start a conversation</a></div>
+    </div>
+  </section>
 </main>
+
+<div class="education-sticky" data-education-sticky aria-label="Course registration shortcut">
+  <span><strong>Courses from $50</strong> <em>Live at CannaCon</em></span>
+  <a class="btn primary" href="#" data-cannacon-program data-track="sticky_cannacon">View dates &amp; register</a>
+</div>
+
 <footer class="site-footer">
   <div class="container footer-main">
     <div class="footer-brand">
@@ -114,12 +346,7 @@
       <p>Play At Scale Services is a DBA of PASS LLC. Seattle-based, serving businesses and education audiences without geographic limitation.</p>
     </div>
     <nav class="footer-links" aria-label="Footer navigation">
-      <a href="advisory.html">Advisory</a>
-      <a href="education.html">Education</a>
-      <a href="resources.html">Resources</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="privacy.html">Privacy</a>
+      <a href="advisory.html">Advisory</a><a href="education.html">Education</a><a href="resources.html">Resources</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a>
       <a href="mailto:lucashobbs@playatscale.com" data-site-link="email">Email Lucas</a>
       <a href="https://meetings-na2.hubspot.com/lucas-hobbs" data-site-link="scheduling" target="_blank" rel="noopener">Schedule</a>
     </nav>
@@ -127,10 +354,12 @@
   <div class="container footer-legal">
     <p>&copy; <span data-year></span> PASS LLC, DBA Play At Scale Services. All rights reserved.</p>
     <p>Play At Scale provides business education and advisory services. Materials and discussions are provided for general business purposes and do not constitute legal, tax, accounting, investment, securities, lending, or other regulated professional advice.</p>
-    <p>Any Play At Scale professional certificate is a private professional certificate and is not an accredited academic credential, professional license, or governmental certification.</p>
+    <p>Any Play At Scale professional certificate is a private professional certificate and is not an accredited academic credential, professional license, governmental certification, or independent personnel certification.</p>
   </div>
 </footer>
+
 <script src="site-data.js"></script>
 <script src="script.js"></script>
+<script src="education.js"></script>
 </body>
 </html>
